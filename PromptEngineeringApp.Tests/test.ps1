@@ -1,0 +1,1 @@
+dotnet test test/PromptEngineeringApp.Tests.csproj --logger "console;verbosity=detailed"
