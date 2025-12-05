@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "Add icons for save as behaviour in dialog",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Marlon suggested we improve the Save As dialog to be like attachment 68228.\nSee bug 116008.",
+    "severity": "minor",
+    "component": "File Handling",
+    "resolution": "WONTFIX",
+    "id": 124996
+}

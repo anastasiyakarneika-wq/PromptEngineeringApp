@@ -1,0 +1,13 @@
+{
+    "description": " ",
+    "status": "RESOLVED",
+    "priority": "P3",
+    "summary": "[meta] lock icon issue tracking bug",
+    "keywords": [
+        "meta"
+    ],
+    "resolution": "INACTIVE",
+    "component": "Site Identity",
+    "id": 130949,
+    "severity": "S3"
+}

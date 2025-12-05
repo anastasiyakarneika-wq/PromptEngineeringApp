@@ -1,0 +1,11 @@
+{
+    "severity": "minor",
+    "id": 127244,
+    "resolution": "WORKSFORME",
+    "component": "Menus",
+    "summary": "When in full screen mode, Alt+letter keystokes permanently kill menu",
+    "keywords": [],
+    "description": "Using Build ID: 2002022103\nSteps to reproduce problem:\n1. Press F11\n2. Press Alt+F, Alt+E, Alt+V, Alt+S, Alt+G, Alt+B, Alt+T, Alt+H, Alt+D, Alt+Q\n3. Pesss F11\n4. As 2.\n\nExpected results: can open all the menus when back in normal mode.\n\nActual results: cannot open any menus, even with the mouse.",
+    "priority": "--",
+    "status": "RESOLVED"
+}

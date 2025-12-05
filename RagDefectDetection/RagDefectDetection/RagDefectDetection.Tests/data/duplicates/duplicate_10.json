@@ -1,0 +1,4 @@
+{
+    "id": 111656,
+    "summary_and_description": "UI flickering during favicon updates\n\nIssue:\nThe favicon (link rel=\"icon\") exhibits unnecessary flickering during page navigation, even when:\n1. The same icon is used across pages\n2. The icon location remains unchanged\n\nReproduction:\n- Navigate between pages on www.mozilla.org\n- Observe icon flicker during transitions\n\nTechnical Analysis:\nCurrent behavior:\n1. Icon reloads/redraws on every page load\n2. Occurs before checking if icon is unchanged\n\nSuggested Optimization:\n1. Delay icon update until page <head> is parsed\n2. Skip redraw if icon URL matches previous page\n3. Special case for same-domain navigation\n\nEdge Cases:\n- Content negotiation scenarios\n- Unspecified image types\n- Redirect chains\n\nImpact:\nVisual polish issue - creates perception of instability during browsing"
+}

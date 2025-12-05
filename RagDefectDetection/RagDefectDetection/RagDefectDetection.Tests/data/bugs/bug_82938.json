@@ -1,0 +1,11 @@
+{
+    "id": 82938,
+    "resolution": "FIXED",
+    "component": "Bookmarks & History",
+    "severity": "normal",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "b: 2001052520\nos: w2k\n\nSince some days \"Search bookmarks...\" has gone from the \"Search\" menu in the\nbrowser.\nWhy do I have to open Manage Bookmarks now? I used this feature \"Search\nbookmarks\" plenty times before?\nWhy should mozilla become more and more uncomfortable?",
+    "keywords": [],
+    "summary": "\"Search Bookmarks\" accessible through manage bookmarks only"
+}

@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "id": 171677,
+    "component": "General",
+    "resolution": "WORKSFORME",
+    "keywords": [],
+    "summary": "Microsoft Web Outlook newsgroup posting will not allow reply to group",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "When accessing a University of Phoenix class using Web-Outlook, you can make a\nnew newsgroup post but you cannot reply to the group in an existing thread.  The\nissue is not the case with Mozilla 1.0.1 ."
+}

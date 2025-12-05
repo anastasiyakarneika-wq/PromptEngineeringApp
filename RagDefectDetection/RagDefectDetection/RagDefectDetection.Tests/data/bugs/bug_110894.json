@@ -1,0 +1,11 @@
+{
+    "component": "Shell Integration",
+    "resolution": "FIXED",
+    "id": 110894,
+    "severity": "normal",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "If possible, whenever we make a link to a webpage thru a shortcut, if we could\nset that link's icon to be the favicon for the page.\n\nFor example, if I just drag/drop the url from mozilla to the desktop or\nwherever, maybe mozilla could save the .ico to some directory, then set that\nicon for the shortcut.\n\nSince favicons can be any image type, maybe there could be a built in converter\ninto .ico\n\nAlso, this could be done for any OS, not just Windows.",
+    "keywords": [],
+    "summary": "Use favicons on webpage shortcuts in Windows"
+}

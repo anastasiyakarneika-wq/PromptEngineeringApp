@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "id": 82301,
+    "component": "Bookmarks & History",
+    "resolution": "FIXED",
+    "summary": "Today History folder should be expanded by default",
+    "keywords": [],
+    "description": "Build: 2001052115, Mac OS 9.1\n\nTo reproduce:\n*   Open the History window.\n*   Look at the `Today' folder.\n\nWhat you should see:\n*   The folder should be expanded.\n\nWhat you actually see:\n*   The folder is collapsed.",
+    "priority": "P4",
+    "status": "RESOLVED"
+}

@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "id": 171946,
+    "resolution": "WORKSFORME",
+    "component": "Bookmarks & History",
+    "keywords": [],
+    "summary": "[Moz] Make Export / Import specific to the managed folder",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "User-Agent:       Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.2b) Gecko/20020930 Phoenix/0.2\nBuild Identifier: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.2b) Gecko/20020930 Phoenix/0.2\n\nIn the Bookmark Manager I rearranged the folders to see if an export would keep\nthe structure of my arrangement.  It did not.  The result was interesting\nthough.  It keeps my Personal toolbar folder always at the top. The rest of the\nformat is close to my arranged format.  Also, the more times that you move your\nPersonal Toolbar folder the more copies it makes to the bookmark.html file.\n\nI say close because the horizonal rule does not appear in the correct places.\n\nReproducible: Always\n\nSteps to Reproduce:\n1.Open Bookmark Manager, Bookmarks -> Manage Bookmarks...\n2.Move folders around in any order than what they were origionally.\n3.Export bookmarks, File -> Export\n4.Save and Open.\n5.Now go back to one and repeat this process for more mixed up results. \n\nActual Results:  \nSince there is no restore default button (why would you?) the results are really\nmixed up.  I now have my Personal Toolbar folder showing up 4 times, then the\nMozilla Project folder, a line, my Personal Toolbar folder again, followed my my\nImported IE Favorites.\n\nExpected Results:  \nIn Bookmark manager, this is the order that I had my folders.  Personal Toolbar\nfolder, line, Mozilla Project, line,  Imported IE Favorites, line."
+}

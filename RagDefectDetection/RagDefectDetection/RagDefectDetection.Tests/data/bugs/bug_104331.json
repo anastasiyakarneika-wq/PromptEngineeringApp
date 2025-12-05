@@ -1,0 +1,11 @@
+{
+    "description": "It is my understanding that with OSX 10.1, carbon apps can make use of the\nservices menu the application menu. Mozilla should have an \"Open URL\" item in\nthe services menu atleast, like Omniweb does. Menu items for mailing selected\ntext would be cool too.",
+    "status": "RESOLVED",
+    "priority": "P3",
+    "summary": "Add items to Services menu on Mac OS X",
+    "keywords": [],
+    "id": 104331,
+    "resolution": "WORKSFORME",
+    "component": "General",
+    "severity": "S3"
+}

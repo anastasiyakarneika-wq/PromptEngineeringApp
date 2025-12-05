@@ -1,0 +1,11 @@
+{
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.1b) Gecko/20020721\nBuildID:    2002072104\n\nthere should be a command line option to open mozilla in full screen mode.\nif you have a site, or file that you commonly open for demonstration purposes,\nthis would be very handy because you could create a shortcut to  open the file\nin full screen mode.\n\nReproducible: Always\nSteps to Reproduce:\n1.c\n2.\n3.",
+    "keywords": [],
+    "summary": "command line option for kiosk mode",
+    "component": "General",
+    "resolution": "FIXED",
+    "id": 158968,
+    "severity": "normal"
+}

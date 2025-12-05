@@ -1,0 +1,13 @@
+{
+    "severity": "normal",
+    "component": "General",
+    "resolution": "WORKSFORME",
+    "id": 56892,
+    "keywords": [
+        "relnote"
+    ],
+    "summary": "Synaptics touchpad scrolling not working",
+    "priority": "P3",
+    "status": "RESOLVED",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (Windows; U; Win95; en-US; m18) Gecko/20001010\nBuildID:    2000101014\n\nI am using a synaptics touch pad with the latest Win 98 driver V 5.0.86 AUg 11 00.\nThe scrolling function on the edge of the touchpad does not have access to the\nslide bars on the side and bottom of all components. Hence when I slide my\nfinger down the edge the window does not scroll.Scrolling does not work with the\ntouch pad in all of the components. In Netscape 4.7 the scrolling works just\nfine.And works on most other programs in windows.\n\n\nReproducible: Always\nSteps to Reproduce:\nLaunch the browser on any machine with a synaptics touchpad. I have a dell\nlattitude with driver version V4.2 on PS/2 port.Version 5.0.86 11Aug 00.\nOn any page try using the scrolling setup , by sliding ones finger along the\nedge that you have configured to function as the scrolling edge. The window does\nnot scroll.\n\nActual Results:\n\nExpected Results:  The window scrolls and the scroll contolls moves"
+}

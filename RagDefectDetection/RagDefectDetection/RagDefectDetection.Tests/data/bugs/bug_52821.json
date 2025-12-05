@@ -1,0 +1,15 @@
+{
+    "description": "I frequently open new windows on almost every page i visit.  Then I have a bunch\nof browser windows to close.  Several times recently I've hit the <ctrl>-q\nrather than <ctrl>-w - which of course closes mozilla and loses all the context\nI've set up.  It would be nice to be able to disable the <ctrl>-w key so this\ndoes not occur.",
+    "priority": "P5",
+    "status": "RESOLVED",
+    "summary": "too easy to hit CTRL+Q instead of CTRL+W",
+    "keywords": [
+        "dataloss",
+        "helpwanted",
+        "papercut"
+    ],
+    "id": 52821,
+    "resolution": "FIXED",
+    "component": "Keyboard Navigation",
+    "severity": "normal"
+}

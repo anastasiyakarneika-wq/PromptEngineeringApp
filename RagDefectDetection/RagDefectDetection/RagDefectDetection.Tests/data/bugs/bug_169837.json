@@ -1,0 +1,11 @@
+{
+    "priority": "P4",
+    "status": "RESOLVED",
+    "description": "we should just scroll the bookmarks, leaving the Add bookmarks and Manage\nbookmarks menu items visible.",
+    "keywords": [],
+    "summary": "scroll bookmarks but not other menu items in bookmarks menu",
+    "resolution": "WONTFIX",
+    "component": "Bookmarks & History",
+    "id": 169837,
+    "severity": "normal"
+}

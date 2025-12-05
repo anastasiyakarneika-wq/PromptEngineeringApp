@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "%s in helper application (or lack of)",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Mozilla 0.9.3 (BuildID 2001080104).  Linux ix86.\n\nOnce the bugs related to proper mailcap support are resolved, it would be\nnice to automatically guess whether the temporary file argument needs to\nbe appended.  For example a handler of \"foo %s\" should not have the temp\nfilename appended, but should have the %s replaced by it.  A handler of\njust \"foo\" should have the temp filename appended to it:\n\nif (substring(helper_app, \"%s\")) {\n    replace(helper_app, \"%s\", tempfile);\n} else {\n    strcat(helper_app, tempfile);\n}",
+    "severity": "--",
+    "resolution": "DUPLICATE",
+    "component": "File Handling",
+    "id": 95091
+}

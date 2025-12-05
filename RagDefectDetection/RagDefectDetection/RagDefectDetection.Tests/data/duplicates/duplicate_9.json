@@ -1,0 +1,4 @@
+{
+    "id": 96146,
+    "summary_and_description": "Improper MIME handling when saving multipart web pages\n\nIssue:\nPages with 'content-disposition: inline' headers (e.g., Bugzilla bug lists) are saved with full MIME formatting rather than as clean HTML files.\n\nReproduction Steps:\n1. Navigate to a multipart page (buglist.cgi)\n2. Save page via browser\n3. Inspect saved file\n\nObserved Behavior:\nSaved files contain:\n- MIME boundaries (--thisrandomstring)\n- Multiple content sections\n- Raw headers (Content-type, Set-Cookie)\n\nExpected Behavior:\nShould save only the final rendered HTML portion as a standard .html file\n\nTechnical Details:\n- Affects pages generating dynamic content\n- MIME parsing occurs during save operation\n- Common with CGI-generated pages\n\nUser Impact:\nSaved files require manual editing to:\n1. Remove MIME formatting\n2. Extract usable HTML\n3. Maintain functional links/resources"
+}

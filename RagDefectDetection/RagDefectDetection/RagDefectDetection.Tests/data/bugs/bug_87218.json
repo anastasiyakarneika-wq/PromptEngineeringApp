@@ -1,0 +1,13 @@
+{
+    "component": "File Handling",
+    "resolution": "INCOMPLETE",
+    "id": 87218,
+    "severity": "major",
+    "priority": "P3",
+    "status": "RESOLVED",
+    "description": "i don't know how widespread this is, but i noticed that when i have an existing\nhelper app defined within netscape6.x, it is ignored [except when created/edited\non the fly] and overridden by the OS setting. this seems like the converse of\nJesse's bug 86979.\n\nit doesn't seem to affect all types --for me it affects my settings for .aiff\n[audio/aiff] and .wav [audio/wav] files, but not the setting i have for .mp3\n[audio/mpeg] files. currently tested on winNT, 2001.06.21.09 commercial bits.\n\nrecipe A:\n--------\n1. create a helper app via the Preferences dialog, Helper Applications panel:\nDescription of type: AIFF handler from prefs\nFile extension: aiff\nMIME: audio/aiff\nApplication: [selected Windows Media Player]\n2. click on the url: http://jrgm.mcom.com/bugs/mimetypes/sample.aiff\n\nresults: helper app dialog appears with:\n* \"AIFF Format Sound\", instead of \"AIFF handler from prefs\" in the \"You have\nchosen to...\" description [mime type is audio/aiff, tho'].\n* \"Open according to system settings\" for the \"Use default action...\" field,\ninstead of mplayer2.exe [Windows Media Player executable].\n* clicking OK results in IE being launched [instead of Windows Media Player]\nwith its File Download dialog.\n\nrecipe B:\n--------\n0. doesn't matter whether or not you have a helper app define for .aiff, actually.\n1. click on the url: http://jrgm.mcom.com/bugs/mimetypes/sample.aiff\n2. in the resulting helper app dialog, click the Set Default button.\n3. define the type with the same info as in step (1) of Recipe (A), then click\nOK to dismiss the Edit [or, New] File dialog.\n4. click OK in helper app dialog.\nresults:\n* the description still says \"AIFF Format Sound\" [mime still audio/aiff].\n* \"Use default action...\" field now says \"Open with application mplayer2.exe.\n* Windows Media Player actually launches.\n5. however, try clicking on that .aiff link again...\n\nresults: same as in Recipe A: user-defined settings don't persist.",
+    "keywords": [
+        "platform-parity"
+    ],
+    "summary": "helper app ignores user-defined application [file type]"
+}

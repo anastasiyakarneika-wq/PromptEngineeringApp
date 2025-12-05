@@ -1,0 +1,11 @@
+{
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Using build 20021003 on WinXP\n\nSteps to Reproduce:\n1. Go to Customize Toolbars.\n2. Hold down Ctrl and drag an item (on the toolbar or in the dialog).\n3. Mouse cursor has a +, indicating the item will be copied.\n\nExpected Results:\nItem gets copied.\n\nActual Results:\nItem gets moved.",
+    "keywords": [],
+    "summary": "Do not allow ctrl+dragging (or remove the + pointer) in Toolbar Customization",
+    "resolution": "FIXED",
+    "component": "Toolbars and Customization",
+    "id": 172502,
+    "severity": "normal"
+}

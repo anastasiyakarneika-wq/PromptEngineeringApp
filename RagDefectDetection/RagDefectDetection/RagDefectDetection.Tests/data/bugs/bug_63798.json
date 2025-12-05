@@ -1,0 +1,13 @@
+{
+    "severity": "S3",
+    "id": 63798,
+    "component": "File Handling",
+    "resolution": "INCOMPLETE",
+    "keywords": [
+        "helpwanted"
+    ],
+    "summary": "login errors bring up save-as dialog",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "if you go to:\nftp://mp3:mp3@24.64.9.57/mp3/techno/Earthbound%20-%20One%20Nation%20-%20Trance%20Nation%20(extended%20version).mp3\nyou will be presented with a save as dialog, which is wrong, since you're not\ndownloading anything according to the FTP log:\n------------------------\n1128[119f10e8]: 11d2dac8 Writing \"RETR /mp3/techno/Earthbound - One Nation -\nTrance Nation (extended version).mp3\"\n1128[119f10e8]: SUCCEEDED\n0[343fe8]: nsFTPChannel::GetContentType() returned audio/mpeg\n1128[119f10e8]: 11d2dac8 Process() - READ_BUF - read \"550 Sorry, insufficient\ncredit for download - upload first.\" (61 bytes)\n1128[119f10e8]: 11d2dac8 Process() - ERROR\n------------------------\n\nUSing build 20001226"
+}

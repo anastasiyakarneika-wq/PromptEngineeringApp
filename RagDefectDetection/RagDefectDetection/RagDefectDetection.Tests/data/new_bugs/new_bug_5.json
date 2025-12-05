@@ -1,0 +1,4 @@
+{
+  "most_similar_bug": 137509,
+  "summary_and_description": "accel+T doesn't work when History is active window\n\nWhen the History window is the active window, command-T (or Control-T) should open a new browser tab, but doesn't.\n\nThis functionality was present in previous versions but disappeared in recent builds. Verified in nightly build 2002032113 where the keyboard shortcut fails despite the menu command being available.\n\nThis is particularly frustrating for power users who keep the History window open as a reference while browsing, as we frequently need to open new tabs without switching back to the main browser window first.\n\nThe issue appears to be specific to tab creation (accel+T) rather than window creation, and occurs in the History window rather than the Bookmarks window, making it a distinct but related usability problem."
+}

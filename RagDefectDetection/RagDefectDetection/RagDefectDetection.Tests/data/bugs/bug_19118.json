@@ -1,0 +1,11 @@
+{
+    "component": "Settings UI",
+    "resolution": "WONTFIX",
+    "id": 19118,
+    "severity": "normal",
+    "description": "I would really like a plug-in manager for my browser that allows me to choose\nwhich mime types are controlled by which plug-ins.\nIn the browser preferences window there should be a plug-in manager with all\navailable mime types listed. Under each mime type there should be a list of\ninstalled plug-ins that can handle that mime type.  Radio buttons can be used to\nselect the plug-in the user prefers for that mime type.\n\nFor example\n\n audio/midi\n    O LiveAudio\n    O LiveUpdate Crescendo version 4.02\n    O QuickTime Plug-in 4.0.3\n audio/aiff\n    O LiveAudio\n    O QuickTime Plug-in 4.0.3",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "Plug-In Manager (ui for choosing mimetype-plugin associations)",
+    "keywords": []
+}

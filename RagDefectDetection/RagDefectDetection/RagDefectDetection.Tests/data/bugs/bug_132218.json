@@ -1,0 +1,11 @@
+{
+    "severity": "major",
+    "id": 132218,
+    "resolution": "INCOMPLETE",
+    "component": "File Handling",
+    "keywords": [],
+    "summary": "Mozilla registers 8.3 DOS paths instead of LFN in Windows File Types (mime types)",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "Mozilla installation registers the shortened mangled paths with Windows causing\nthe  Windows/Mozilla integration to fail to open files associated with Mozilla,\ne.g. HTML files.\nHere is an example of the contents of the open action for HTML files under Windows:\nC:\\PROGRA~1\\MOZILLA.ORG\\MOZILLA\\MOZILLA.EXE -url \"%1\"\n\nWhen an external program such as a chat client tries to launch a URL it fails. \nHowever, when I change the path to a non-mangled one:\n\n\"C:\\PROGRAM FILES\\MOZILLA.ORG\\MOZILLA\\MOZILLA.EXE\" -url \"%1\"\n\n(aside: the path here needs to be quoted since it contains a space; promiscuous\nquoting doesn't hurt anything anyway)\n\nthe chat client has no problems launching the URL.\n\nIt would be nice if the Installer/Mozilla would register non-mangled paths with\nWindows to alleviate such problems.  It's a real pain to go through all the\nassociations and correct the paths by hand.\n\nThis is a Windows specific issue AFAIK."
+}

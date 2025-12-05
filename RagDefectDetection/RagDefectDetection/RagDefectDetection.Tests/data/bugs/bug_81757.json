@@ -1,0 +1,13 @@
+{
+    "severity": "S3",
+    "resolution": "WORKSFORME",
+    "component": "Sidebar",
+    "id": 81757,
+    "keywords": [
+        "helpwanted"
+    ],
+    "summary": "Need keybindings for various sidebar panels",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "IE allows you to open a selection of commonly used sidebar panels by using a\nkeybinding, e.g.:\n\nCtrl+I = Favorites\nCtrl+H = History\nCtrl+E = Search\n\nHitting the command key once opens the sidebar if necessary, and displays the\nselected panel. Hitting the command key again closes the sidebar. \n\nI think we need something like this, but go further than IE, and pass focus to\nan appropriate element inside the panel, so that you could, for example:\n\npress Ctrl+<bookmark panel modifier>\npress arrow keys to select, hit enter to load document.\n\npress Ctrl+<search panel modifier>\ntype query into search box, hit enter to perform search."
+}

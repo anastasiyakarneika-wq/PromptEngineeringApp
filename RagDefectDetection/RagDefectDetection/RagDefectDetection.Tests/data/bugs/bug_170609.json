@@ -1,0 +1,11 @@
+{
+    "id": 170609,
+    "resolution": "FIXED",
+    "component": "General",
+    "severity": "normal",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "User-Agent:       Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.2b) Gecko/20020923 Phoenix/0.1\nBuild Identifier: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.2b) Gecko/20020923 Phoenix/0.1\n\nIf Mozilla and Phoenix are both running at the same time, using the \"-remote\nopenurl()\" command on Phoenix opens the Mozilla window instead of Phoenix.\n\nReproducible: Always\n\nSteps to Reproduce:\n1. Start Mozilla.\n2. Start Phoenix\n3. At the commandline, cd to the phoenix install directory and type:\n\n./phoenix -remote 'openurl(http://www.kuro5hin.org/)'\n(or any other URL)\nActual Results:  \nThe Mozilla window opens the URL.\n\nExpected Results:  \nThe Phoenix window should have opened the URL instead of Mozilla.",
+    "keywords": [],
+    "summary": "-remote openurl() opens Mozilla window if Mozilla is running"
+}

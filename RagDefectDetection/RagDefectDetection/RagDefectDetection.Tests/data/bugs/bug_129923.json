@@ -1,0 +1,13 @@
+{
+    "severity": "S3",
+    "id": 129923,
+    "resolution": "INACTIVE",
+    "component": "File Handling",
+    "summary": "[meta] Bugs related to <pre->saving files to temp dir.",
+    "keywords": [
+        "meta"
+    ],
+    "description": "This is a meta bug for tracking defects related to the scheme we use in\ndownloading files, whereby we first save them to a temp directory, then copy or\nmove them to where the user specified.  In the worst cases, we start saving the\nfile to the temp directory before they dismiss the file save dialog, and we may\neven save the entire file without the user having clicked OK.",
+    "status": "RESOLVED",
+    "priority": "P5"
+}

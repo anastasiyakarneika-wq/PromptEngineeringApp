@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "[cust] more toolbar customization ideas",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "Some more things I want to do to toolbar customization:\n\n1. add spacers, which consume 20px or so, as opposed to just springs\n\n2. organize the palette by category, which will help if start getting a ton of\nbuttons thrown in there\n\n3. Place a label underneath spacer, spring, separator, and all toolbaritems. \ntoolbaritem should support a \"title\" attribute for this use.\n\n4. Toolbar add-ons will want to add their own toolbars, in addition to putting\ntheir buttons in the palette so they can be moved around.  The problem here is\nthat when these toolbars are empty, they stick around forever, so need a way for\ntoolbarset to support toolbars that can be overlayed but never created if they\nare empty.\n\n5. Per-toolbar mode and icon size",
+    "severity": "normal",
+    "id": 171106,
+    "resolution": "INVALID",
+    "component": "Toolbars and Customization"
+}

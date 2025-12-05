@@ -1,0 +1,13 @@
+{
+    "resolution": "INCOMPLETE",
+    "component": "File Handling",
+    "id": 99579,
+    "severity": "major",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0b; Windows NT 5.0)\nBuildID:    CVS pull of trunk on 20010914\n\nWhen a download automatically launches winzip and all browser instances other \nthan the download window are closed, then when the download window \nautomatically closes after launching winzip it deletes the zip file. This means \nthe file opened in winzip is no longer valid and can't be used.\n\nReproducible: Always\nSteps to Reproduce:\n1. Open above URL.\n2. Select open using WinZip and press OK.\n3. Close any open browser windows apart from the download window.\n4. Winzip will load the zip file when the download finishes, the download \nwindow closes, then press extract in winzip.\n\nActual Results:  Winzip shows error message that the archive is no longer \navailable.\n\nExpected Results:  Should be able to use downloaded archive.\n\nThis is related to bugs 63105 and 76743.",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "Downloaded zip files are no longer available after the browser closes",
+    "keywords": [
+        "relnote"
+    ]
+}

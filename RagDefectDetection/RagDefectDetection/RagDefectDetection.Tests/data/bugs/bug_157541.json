@@ -1,0 +1,13 @@
+{
+    "component": "Theme",
+    "resolution": "WORKSFORME",
+    "id": 157541,
+    "severity": "S4",
+    "status": "RESOLVED",
+    "priority": "P5",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.1a+) Gecko/20020714\nBuildID:    2002071422\n\noccurs in\nMozilla build 2002071422 on Solaris 8\nand Netscape 7.0_03 on Solaris 8\n\n\nall chars in every display-levels should be displayed at the same time in the \nsame view point.\n\n\nReproducible: Always\n\nSteps to Reproduce:\n1. in any textfield of Mozilla\n   e.g.\n   - browser's location bar\n   - textfield in HTML (e.g search field of http://www.sanook.com)\n   - Mail's msg search textfield\n\n   reminder: textfield (one-line), not textarea (multiple-line).\n\n2. type Thai text with below-level char\n   e.g. \"Ko Kai + Sara U + Mai Ek\"  (U+0E01 + U+0E38 + U+0E48)\n         --> Ko Kai (U+0E01) is a base-level char\n         --> Sara U (U+0E38) is a below-level char\n         --> Mai Ek (U+0E48) is a top-level char\n\nActual Results:\n- only top/above/base-level chars are displayed at the time of keying.\n- need to press <down-arrow> key, scrolls to see below-level char.\n  (and then need to press <up-arrow> key, scrolls to see the original view)\n\n\nExpected Results:\nall chars in every display-level are displayed on screen, in the area of\ntextfield, at the same time.\n\n\nfyi,\n\nin Thai writing system, there're 4 display-levels of character.\nfrom highest to lowest: top, above, base, below.\n\nseveral Thai characters with different display-levels can be composed together,\nwe call this composed unit a \"diplay cell\".",
+    "keywords": [
+        "intl"
+    ],
+    "summary": "need more height in textfield/location bar to fully display non-base-level characters"
+}

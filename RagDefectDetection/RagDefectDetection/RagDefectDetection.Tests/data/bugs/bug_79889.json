@@ -1,0 +1,15 @@
+{
+    "severity": "normal",
+    "component": "File Handling",
+    "resolution": "WORKSFORME",
+    "id": 79889,
+    "keywords": [
+        "helpwanted",
+        "polish",
+        "regression"
+    ],
+    "summary": "Download progress dialog too small [clipped on right side]",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "- start downloading a file, like from ftp\n\nthe download dialog is too small"
+}

@@ -1,0 +1,14 @@
+{
+    "severity": "normal",
+    "component": "File Handling",
+    "resolution": "INACTIVE",
+    "id": 149526,
+    "summary": "save-as-and-open In the \"open\"-\"save as\"-\"cancel\" download dialog",
+    "keywords": [
+        "parity-chrome",
+        "parity-ie"
+    ],
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.0.0) Gecko/20020529\nBuildID:    \n\nIn the open-save as-cancel dialog when clicking on a non-html link\nthere should be an opion \"save as and open\" to have a permanent local\ncopy and open that copy w/o having to leave the browser and look for that file.\n\nReproducible: Always\nSteps to Reproduce:\n1.click on a non-html-link\n2.\n3.",
+    "priority": "--",
+    "status": "RESOLVED"
+}

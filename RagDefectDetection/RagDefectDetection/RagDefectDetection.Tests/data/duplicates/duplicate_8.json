@@ -1,0 +1,4 @@
+{
+    "id": 70171,
+    "summary_and_description": "History window context awareness\n\nExpected Behavior:\nWhen opening the history window from an active browser tab, the window should:\n1. Automatically highlight the currently viewed website in the history list\n2. Scroll to make this entry visible\n\nCurrent Behavior:\nThe history window opens without regard to the user's current browsing context, requiring manual search for the active site.\n\nUse Case:\nUsers checking their browsing history for:\n- Recent page visits\n- Related sites in same session\n- Contextual navigation patterns\n\nTechnical Impact:\nWould require:\n1. Browser-to-history-window communication\n2. History list search/scrolling functionality\n3. Current URL matching against history entries"
+}

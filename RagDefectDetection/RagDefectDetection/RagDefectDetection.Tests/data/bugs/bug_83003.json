@@ -1,0 +1,11 @@
+{
+    "description": "would like to see a command line option that allows the \"bookmark window\" to be\nopened on startup\n\nsomething like \"mozilla.exe -bookmarks\"",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "-bookmarks option",
+    "keywords": [],
+    "id": 83003,
+    "component": "Bookmarks & History",
+    "resolution": "WONTFIX",
+    "severity": "normal"
+}

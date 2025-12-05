@@ -1,0 +1,13 @@
+{
+    "description": "When the Bookmarks window is the active window, command-N (or Control-N) should\nopen a new browser window, but doesn't.\n\nThis used to work, and in the past couple of weeks disappeared. (I just checked\nnightly build 2002032113 and the keyboard accelerator works just fine, even\nthough the menu commands aren't present.)\n\nThis is important to me, because I leave the bookmarks window open all of the\ntime, with browser windows closed, and I keep tripping over this missing\nkeyboard command.",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "accel+N doesn't work when Bookmarks is active window",
+    "keywords": [
+        "regression"
+    ],
+    "id": 137509,
+    "resolution": "INACTIVE",
+    "component": "Bookmarks & History",
+    "severity": "normal"
+}

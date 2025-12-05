@@ -1,0 +1,11 @@
+{
+    "description": " ",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "Add dropmarker to icon in search bar",
+    "keywords": [],
+    "id": 171606,
+    "resolution": "FIXED",
+    "component": "General",
+    "severity": "normal"
+}

@@ -1,0 +1,14 @@
+{
+    "keywords": [
+        "polish",
+        "regression"
+    ],
+    "summary": "Mozilla Firefox Icon is Windowing System's Standard Icon (Taskbar & Upper Lefthand Corner of App)",
+    "priority": "P2",
+    "status": "RESOLVED",
+    "description": "1. start phoenix\n2. look in the upper left corner of the window\n3. observe default windows icon\n\nMozilla/5.0 (Windows; U; Win98; en-US; rv:1.2b) Gecko/20020927 Phoenix/0.2\n(hm, just noticed, the other bugs I filed today had the same buildid of course)",
+    "severity": "normal",
+    "id": 171349,
+    "component": "General",
+    "resolution": "FIXED"
+}

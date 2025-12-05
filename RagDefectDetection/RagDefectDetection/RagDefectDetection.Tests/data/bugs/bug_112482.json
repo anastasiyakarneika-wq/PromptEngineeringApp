@@ -1,0 +1,13 @@
+{
+    "severity": "major",
+    "id": 112482,
+    "component": "File Handling",
+    "resolution": "WONTFIX",
+    "summary": "AppendRelativePath on unix needs to accept valid '../' pathnames",
+    "keywords": [
+        "helpwanted"
+    ],
+    "description": "When using the \"Save File\" dialog, if I use \"..\" anywhere in the path (i.e.,\n../filename or subdir/../filename), it will not save the file - I can cancel and\nclose the dialog OK, but clicking the Save button does nothing.\n\nThis happens in all Save File dialogs I see.\n\nI don't see this behavior on Windows.",
+    "status": "RESOLVED",
+    "priority": "--"
+}

@@ -1,0 +1,11 @@
+{
+    "resolution": "DUPLICATE",
+    "component": "Menus",
+    "id": 170029,
+    "severity": "normal",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "only shows the access keys when you hit alt",
+    "keywords": [],
+    "summary": "Respect Windows Access Keys display pref (default: only show the access keys when you hit alt)"
+}

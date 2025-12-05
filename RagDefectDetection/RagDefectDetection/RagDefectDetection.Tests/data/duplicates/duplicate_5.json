@@ -1,0 +1,4 @@
+{
+    "id": 137509,
+    "summary_and_description": "Keyboard shortcut failure in bookmarks window\n\nIssue:\nThe Cmd/Ctrl+N shortcut fails to open new browser windows when the bookmarks window is focused, despite:\n1. Being previously functional\n2. Working in other contexts (confirmed in nightly build 2002032113)\n\nImpact:\nDisrupts workflow for users who:\n- Keep bookmarks window persistently open\n- Rely on keyboard shortcuts for window management\n\nTechnical Details:\n- Regression introduced in recent builds (within past 2 weeks)\n- Menu items missing but accelerator should still function\n- Verified working in nightly builds (suggests fix exists)\n\nUser Context:\nPower user workflow dependency - this shortcut is critical for users who:\n1. Maintain open bookmarks as a \"home base\"\n2. Launch most browser sessions from this window"
+}

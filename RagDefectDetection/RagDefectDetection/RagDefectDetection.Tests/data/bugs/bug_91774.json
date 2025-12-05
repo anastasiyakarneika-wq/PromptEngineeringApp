@@ -1,0 +1,13 @@
+{
+    "keywords": [
+        "l12y"
+    ],
+    "summary": "Localization problems with Bookmarks \"Sorted By\" menu & History \"Sorted By\" menu",
+    "priority": "P3",
+    "status": "RESOLVED",
+    "description": "Localization problems with Bookmarks \"Sorted By\" menu & History \"Sorted By\" menu.\n\"Sorted by\" menu gets strings from headers - wrong (can't localize it in proper\nway). It should have own strings as for example in mail client.\n\nStrings are from:\nhttp://lxr.mozilla.org/seamonkey/source/xpfe/components/bookmarks/resources/locale/en-US/bookmarks.dtd#68\n to #74\n\nInstead of gettings labels from headers add labels like this:\nsortedby.name.label\nsortedby.url.label\netc.",
+    "severity": "normal",
+    "id": 91774,
+    "resolution": "FIXED",
+    "component": "Bookmarks & History"
+}

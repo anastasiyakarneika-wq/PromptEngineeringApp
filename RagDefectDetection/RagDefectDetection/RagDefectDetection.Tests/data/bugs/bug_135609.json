@@ -1,0 +1,11 @@
+{
+    "summary": "Tab completion in the file dialog",
+    "keywords": [],
+    "description": "i'm amazed this bug hasn't been filed before(or it was and i couldn't find it :)\n\nit would be nice to see tab completition in the file dialog a la gtk/bash",
+    "priority": "--",
+    "status": "RESOLVED",
+    "severity": "S3",
+    "component": "File Handling",
+    "resolution": "INVALID",
+    "id": 135609
+}

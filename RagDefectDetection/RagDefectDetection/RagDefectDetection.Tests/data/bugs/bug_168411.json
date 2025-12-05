@@ -1,0 +1,14 @@
+{
+    "keywords": [
+        "fixed1.8.1",
+        "memory-leak"
+    ],
+    "summary": "Move bookmarks transactions into a JS service (adding a bookmark leaks the Add Bookmark dialog)",
+    "status": "RESOLVED",
+    "priority": "P2",
+    "description": "When a bookmark transaction  has been created in a bookmark manager window that\nhas been closed, when undoing in a new BM window, I hit this assertion:\n###!!! ASSERTION: \nXPConnect is being called on a scope without a 'Components' property!\n\nThis is pretty much always bad. It usually means that native code is\nmaking a callback to an interface implemented in JavaScript, but the\ndocument where the JS object was created has already been cleared and the\nglobal properties of that document's window are *gone*. Generally this\nindicates a problem that should be addressed in the design and use of the\ncallback code.\n: 'Error', file xpcwrappednativescope.cpp, line 549\nBreak: at file xpcwrappednativescope.cpp, line 549\n\nIn fact, the transaction is correctly undone, so I ponder the porting to cpp.",
+    "severity": "normal",
+    "id": 168411,
+    "resolution": "FIXED",
+    "component": "Bookmarks & History"
+}

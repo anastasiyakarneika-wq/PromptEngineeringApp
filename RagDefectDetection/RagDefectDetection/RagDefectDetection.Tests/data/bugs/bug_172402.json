@@ -1,0 +1,11 @@
+{
+    "id": 172402,
+    "resolution": "WORKSFORME",
+    "component": "General",
+    "severity": "normal",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Go to any iso-8859-a (aka latin1), unlabeled web page.\nWith default settings, this will look like garbage Latin1 characters.\nOpen the View|Character Coding menu and you will still see the checked\nencoding is \"Western (ISO-8859-1)\"\n\nTry the menu, View|Character Coding|Autodetect|Universal\n\nActual: Nothing happens, open the View|Character Coding menu and you\nwill still see the Open the View|Character Coding menu and you will\nstill see the checked encoding is \"Western (ISO-8859-1)\"\n\nExpected: the page should render in the correct charset, and the\nView|Character Coding menu will have checked the correct charset.\n\nOn an unlabeled Simplified Chinese page (see URL above), try\nTry the menu, View|Character Coding|Autodetect|Chinese\n\nActual: Nothing happens, open the View|Character Coding menu and you\nwill still see the Open the View|Character Coding menu and you will\nstill see the checked encoding is \"Western (ISO-8859-1)\"\n\nExpected: the page should render in the correct charset, and the\nView|Character Coding menu will have checked the correct charset.\n\nAs a check, you an then go select View|Character Coding|More|East\nAsian|Simplified Chinese (GB2312).  This forces the page to be treated\nas GB2312, and then the page will be rendered correctly.  However, the\ncheckmark will still claim \"Western (ISO-8859-1)\".  So there looks to\nbe another bug in the feedback.\nin View|Character Coding will correctly check",
+    "keywords": [],
+    "summary": "charset autodetector not working"
+}

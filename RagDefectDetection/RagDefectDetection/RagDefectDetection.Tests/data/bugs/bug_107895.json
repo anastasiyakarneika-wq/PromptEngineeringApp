@@ -1,0 +1,13 @@
+{
+    "resolution": "WORKSFORME",
+    "component": "Sidebar",
+    "id": 107895,
+    "severity": "S3",
+    "description": "The Sidebar is the first thing I hide when configuring a browser for the first\ntime (I do this a LOT).\n\nIt is handy, thought to be able to pop out the Sidebar when necessary.\n\nI propose Command-Shift-T (Mac) and Control-Shift-T on other platforms.",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "Command-key to hide/show sidebar [Mac]",
+    "keywords": [
+        "helpwanted"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": 171350,
+    "resolution": "WONTFIX",
+    "component": "Toolbars and Customization",
+    "severity": "normal",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.2b) Gecko/20020927 Phoenix/0.2\nI have moved my urlbar to a new toolbar\nnow, view|full screen shows no urlbar.",
+    "keywords": [],
+    "summary": "[cust] allow customization or better control of full screen toolbars"
+}

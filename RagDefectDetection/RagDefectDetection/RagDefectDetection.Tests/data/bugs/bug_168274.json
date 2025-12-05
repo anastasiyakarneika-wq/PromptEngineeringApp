@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "Show form action URL in status bar (like for link URLs) (e.g. when hovering a submit button)",
+    "status": "RESOLVED",
+    "priority": "P4",
+    "description": "buttons in forms have defined linkages to other pages or programs (the ACTION\nattribute). unlike A HREF links, on mouseover, these are not previewed in the\nstatus bar. it sure would be convenient if they were!",
+    "severity": "normal",
+    "component": "General",
+    "resolution": "WONTFIX",
+    "id": 168274
+}

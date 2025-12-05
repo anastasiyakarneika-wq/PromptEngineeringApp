@@ -1,0 +1,11 @@
+{
+    "id": 10954,
+    "component": "Settings UI",
+    "resolution": "WONTFIX",
+    "severity": "normal",
+    "status": "RESOLVED",
+    "priority": "P3",
+    "description": "The dialup properties of the profile should be exposed in the prefs panels so\nthe user has an easy way to modify them.  The only other alternative would be to\nmake people go to the profile manager to edit them, but we don't have that in\nplace either.  Let's try the prefs panel approach first.",
+    "keywords": [],
+    "summary": "Dialup properties needs to be exposed in prefs"
+}

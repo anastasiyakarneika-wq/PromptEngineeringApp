@@ -1,0 +1,11 @@
+{
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Quick access to \"Favorites\" directory in the \"Open\" and \"Save As...\" dialogues\nin Windows\n\nThere should be a button (or icon) in the \"Save As...\" dialogues that takes you\nto the favorites directory. There, the user has quick access to all directories\nhe has deemed as important enough to want quick access to.\n\nFor instance, I am currently managing about 10 projects at my company and have a\n\"favorite\" defined for each project. I also have an additional 10-20 favorites\nfor other network directories (e.g., proposals, report templates, technical\ndata, etc). Now, whenever I receice attachments from clients, it would be very\nuseful to be able to quickly select that project's directory and save the files\nthere.\n\nSuggested UI:\n\n+- Open/Save a file -----------------------------------------+\n|                      ________________________________      |\n| Recent directories: |________________________________|\\/|  | <-- bug 115574 :)\n| ---------------------------------------------------------- |\n|           _______________________                          |\n| Look in: |_______________________|\\/| |^|  [FavIco]        | <-- fav-icon here\n| +--------------------------------------------------------+ |\n| | files (favs) listed here                               | |\n| |                                                        | |\n| |                                                        | |\n\nIf bug 115574 is possible (modify open/save dialogues) and \"a good idea\" then\nthis one must at least be one too :)\n\nWould this apply to other OS's (Linux, Mac) too?",
+    "keywords": [],
+    "summary": "Quick access to \"Favorites\" directory in the \"Open\" and \"Save As...\" dialogues in Windows",
+    "component": "File Handling",
+    "resolution": "WORKSFORME",
+    "id": 115981,
+    "severity": "S3"
+}

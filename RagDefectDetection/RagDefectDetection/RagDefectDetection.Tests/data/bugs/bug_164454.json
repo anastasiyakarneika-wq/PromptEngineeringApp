@@ -1,0 +1,11 @@
+{
+    "description": "User-Agent:       Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.1b) Gecko/20020809 Debian/1.0.0-0.woody.1\nBuild Identifier: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.1b) Gecko/20020809 Debian/1.0.0-0.woody.1\n\nAfter choosing \"Save this file to disk...\" option in \"Downloading...\" dialog\nnothing happens.\n\n\nReproducible: Always\n\nSteps to Reproduce:\n1. Go to the URL\n2. Press [Download] button\n3. Mozilla shows dialog \"Downloading presario7200_7600.pdf\", choose \"Save this\nfile to disk...\" there and press Ok\n4. Nothing happens. Mozilla does not open dialog to choose filename and location\nwhere to save the file.",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "Dialog \"Enter name of file to save to...\" does not appear",
+    "keywords": [],
+    "id": 164454,
+    "resolution": "INCOMPLETE",
+    "component": "File Handling",
+    "severity": "major"
+}

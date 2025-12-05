@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "Allow search engines to test if they are the default",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "I would like search engines to be able to test whether they are the user's\ndefault search engine.  IE does a similar thing with home page (try it on\nGoogle).  I think we should, despite the minor privacy hit, because it would\nencourage sites to give their users search plugins:\n\n1. Google could include a link \"Make Google your default search engine\", and\nmake the link disappear if the default search engine is already Google.  It does\nsomething similar for Internet Explorer, but with the home page rather than the\nsearch engine.\n\n2. After calling window.sidebar.addSearchEgnie(), Google could test again to see\nif the user accepted the plugin and made Google the default using the checkbox\nfrom bug 153188.  Then Google could say \"Congratulations! You can now go to the\nGoogle home page by selecting 'Tools, Search the Web' or by pressing\nCtrl+Shift+F.  You can also search Google using the Search panel in the Mozilla\nsidebar.\"\n\nThe function might be window.sidebar.isDefaultSearchEngine(\"Google\").  We could\nalso have window.sidebar.haveSearchEngine(\"LXR @ mozilla.org\") for sites that\nwant to give users Sherlock plugins but don't expect to be the default search\nengine.",
+    "severity": "normal",
+    "id": 153509,
+    "component": "Search",
+    "resolution": "DUPLICATE"
+}

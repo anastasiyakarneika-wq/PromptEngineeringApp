@@ -1,0 +1,11 @@
+{
+    "severity": "--",
+    "id": 159057,
+    "resolution": "WONTFIX",
+    "component": "File Handling",
+    "keywords": [],
+    "summary": "Can't ftp  files with extensions",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.1b) Gecko/20020722\nBuildID:    2002072204\n\nI have noticed that in mozilla 1.0 and above I can't download *some* files using\nftp of the form ftp://username@host. I can login to ftp server, browse but can't\ndownload files with some extensions (ie 'file.jpg' = failure, but *the same*\n'file' = succes and also 'file.exe' = succes). I have tried this on solaris ftp\nserver and proftp on debian.\n\nReproducible: Always\nSteps to Reproduce:\n1.Login to ftp server\n2.Click on file with extension (for example file.jpg)\n3.(Picture displays in mozilla window) Choosing (RMB) Save image as...\n4.Mozilla asks a password (why?)! I have been already logged in.\n5.Entering password\n6.Dialog window opens to save my file somewhere... Choosing ok\n7.Opens download status window... and quickly closes\n8.No file on my local hdd\n \n\nWell,  Generally shift + LMB does not work at all either. Anyway I can download\nbut only under one condition: there must appear one window: after clicking on a\nfile there must appear window which asks: open using something... or save this\nfile to disk. Than the file is really copied to my local hdd.\n\nMaybe something with mime is wrong?"
+}

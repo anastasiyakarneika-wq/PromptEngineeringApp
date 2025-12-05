@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "Context menu for phantom bookmark after using Find",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "Using build 20021004 on WinXP\n\nSteps to Reproduce:\n1. Open the bookmarks sidebar and select a bookmark or folder\n2. Type in some text in the Find textarea until the bookmark from step 1 is no\nlonger shown and there is some whitespace in the sidebar.\n3. Right click on the whitespace\n\nResult:\nThe context menu corresponds to the bookmark selected in step 1.\n\nThis is probably just a symptom of Bug 156576, but I'm suggesting we hide 156576 \nby deselecting the selected bookmark in the sidebar as soon as a bookmark search\nstarts.",
+    "severity": "normal",
+    "component": "Bookmarks & History",
+    "resolution": "WORKSFORME",
+    "id": 172733
+}

@@ -1,0 +1,11 @@
+{
+    "description": "RFE: Mozilla should support X11 session management (see xsm(1)). This means it\nshould be possible to create snapshots of current mozilla windows (browser,\nmailnews, editor(!!), etc.), shutdown the Zilla and restart it using those\nsession data later.\n\nNote that that multiple session \"snapshots\" are allowed per user...",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "Mozilla should support X11 session management",
+    "keywords": [],
+    "id": 93789,
+    "component": "Shell Integration",
+    "resolution": "FIXED",
+    "severity": "normal"
+}

@@ -1,0 +1,4 @@
+{
+    "id": 169727,
+    "summary_and_description": "Window geometry restoration failure after exiting fullscreen mode on Linux\n\nTest Environment:\nMozilla/5.0 (Linux i686; rv:0.1)\n\nReproduction Steps:\n1. Set window to normal/non-maximized state (smaller than screen)\n2. Maximize the window\n3. Enter fullscreen mode (F11)\n4. Exit fullscreen mode (F11)\n\nObserved Behavior:\n- Window returns to maximized dimensions but in 'restored' state\n- Original pre-maximized size/position are not preserved\n\nExpected Behavior:\nAfter exiting fullscreen:\n1. Window should return to proper maximized state\n2. Should remember initial restore geometry from step 1\n\nTechnical Note:\nThis appears to be a window state management issue during the fullscreen transition chain (normal → maximized → fullscreen → maximized)"
+}

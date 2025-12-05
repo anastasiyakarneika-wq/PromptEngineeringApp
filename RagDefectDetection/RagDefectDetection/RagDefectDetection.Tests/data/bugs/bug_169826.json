@@ -1,0 +1,11 @@
+{
+    "summary": "Port patch to bug 164006 (wyciwyg: in tab titles)",
+    "keywords": [],
+    "description": "Phoenix is missing the patch for bug 164006.  It touches tabbrowser and friends,\ncan you check it out and see if it's a good patch?  And bring it over if so?",
+    "status": "RESOLVED",
+    "priority": "P5",
+    "severity": "normal",
+    "component": "Tabbed Browser",
+    "resolution": "FIXED",
+    "id": 169826
+}

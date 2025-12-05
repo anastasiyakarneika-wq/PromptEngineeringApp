@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "accel-click (ctrl-click / command-click) on personal toolbar does not open folder as a group of tabs",
+    "status": "RESOLVED",
+    "priority": "P3",
+    "description": "Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.2b) Gecko/20021004 Phoenix/0.3\nctrl-click works in bookmark sidebar, but not in personal toolbar.",
+    "severity": "normal",
+    "id": 172675,
+    "component": "Bookmarks & History",
+    "resolution": "WORKSFORME"
+}

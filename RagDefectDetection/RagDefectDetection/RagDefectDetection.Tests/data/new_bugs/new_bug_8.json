@@ -1,0 +1,4 @@
+{
+  "most_similar_bug": 70171,
+  "summary_and_description": "The bookmarks window should highlight and scroll to the current folder when opened from a bookmark menu\n\nWhen opening the bookmarks manager window by right-clicking a bookmark folder and selecting 'Open in Bookmarks Manager', the window should automatically highlight and scroll to show that specific folder. Currently it just opens to the top level view.\n\nThis differs from the history window issue because:\n1. It affects the bookmarks manager rather than history window\n2. Involves folder navigation rather than site selection\n3. Requires tracking the originating context from a right-click menu\n4. Would improve workflow when organizing nested bookmark folders\n\nExpected behavior: When opening from context menu, bookmarks manager should focus on and reveal the specific folder that was right-clicked."
+}

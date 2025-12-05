@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "Save As Web page complete, malformed local url paths",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Save As Web page complete, malformed local url paths if oringal location\ncontains spaces they are saved as %20 and then when you try and load the page\nyou have saved to disk they are escaped as %2520\n\n\nsave a complete web page to disk\nif the website contains spaces in the path mozilla will replace them with %20\n(example)\nhttp://www.mozilla.org/space test.html\nsaved to c:\\My Documents\\ would become \nfile:///c:/My%20Documents/space%20test.html\n\nnow when i go to view this page the images in the document have the file path\nspace%20test_files/image.jpg\n\nand when you try and view the page mozilla takes the %20 and tries to escape the %\nso mozilla thinks the correct path should be\nspace%2520test_files/image.jpg\nbut it is not\n\ni did a search for Save As to try and see if anything similar had already been\nreported but did not see anything, so i hope this not yet another duplicate. \nthanks.",
+    "severity": "normal",
+    "id": 133010,
+    "resolution": "WORKSFORME",
+    "component": "File Handling"
+}

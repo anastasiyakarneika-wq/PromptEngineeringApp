@@ -1,0 +1,13 @@
+{
+    "keywords": [
+        "helpwanted"
+    ],
+    "summary": "[Find] Find whole word only",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "Please add \"Match Whole Word Only\" option to browser's \"Find on this page\"\ndialog.",
+    "severity": "minor",
+    "component": "General",
+    "resolution": "DUPLICATE",
+    "id": 14871
+}

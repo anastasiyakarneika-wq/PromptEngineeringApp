@@ -1,0 +1,4 @@
+{
+  "most_similar_bug": 169727,
+  "summary_and_description": "Window draws corrupted content when transitioning from full screen to maximized state (Linux/NVIDIA)\n\nTested on: Mozilla/5.0 (X11; Linux x86_64; NVIDIA 470.182.03) Gecko/20020919\n\nSteps to reproduce:\n1) Start with window in maximized state\n2) Enter full screen (F11)\n3) Exit full screen (F11)\n\nObserved Behavior:\n- Window correctly returns to maximized state\n- Content area shows graphical corruption:\n  * Partial screen tearing\n  * UI elements drawn at wrong coordinates\n  * Requires manual resize to fix\n\nExpected Behavior:\nClean rendering when exiting full screen without corruption\n\nTechnical Notes:\n- Only occurs with NVIDIA proprietary drivers\n- Correlates with X11 sync events (xrandr log shows timing issues)\n- Distinct from state management bugs as the window state is preserved correctly - this is purely a rendering/compositing issue."
+}

@@ -1,0 +1,11 @@
+{
+    "id": 170861,
+    "resolution": "FIXED",
+    "component": "General",
+    "severity": "normal",
+    "description": "User-Agent:       Mozilla/5.0 (X11; U; Linux ppc; en-US; rv:1.2b) Gecko/20020924 Phoenix/0.1\nBuild Identifier: Mozilla/5.0 (X11; U; Linux ppc; en-US; rv:1.2b) Gecko/20020924 Phoenix/0.1\n\nIn normal Mozilla for Linux/X11, pasteing with the middle button into a \"blank\"\narea of a web page will attempt to open the contents of the clipboard.  Phoenix\ndoes not follow this behavior, but it would be very convenient if it did.\n\nReproducible: Always\n\nSteps to Reproduce:\n1.Double click on a url to enter it into the clipboard, such as\nhttp://www.mozilla.org\n2.Open a new tab so that you have a blank webpage rendered\n3.Middle click to paste the url onto the blank webpage\n\nActual Results:  \nNothing ;)\n\nExpected Results:  \nThe URL would be opened in the current window/tab as if you have entered it into\nthe location bar or via \"Open Location...\"",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "implement middle click paste to load URL for Windows",
+    "keywords": []
+}

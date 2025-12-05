@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "Running Mozilla as root prevents helper apps from launching",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.3+) Gecko/20010815\nBuildID:    2001081514\n\nI know this is considered a feature, but I consider it a bug.  I cannot get\nMozilla to launch a helper application when I download an unknown file.  For\ninstance, I can't get Mozilla to launch xmms whenever I try to play a Shoutcast\nstream.\n\nReproducible: Always\nSteps to Reproduce:\n1. Install a fresh copy of Mozilla, with no helper apps or plug-ins configured.\n2. Log in as a regular user.\n3. Lauch Mozilla and click on the URL about.\n4. Notice how Mozilla asks if you want to download the file, or associate it\nwith some application.\n5. Close Mozilla.  Now log in as root and repeat step #3.\n6. Notice now that Mozilla will only let you save the file to disk. Even if you\nspecify a helper application, Mozilla ignores it and insists on downloading the\nfile.\n\nActual Results:  Mozilla insists on downloading any unknown file.\n\nExpected Results:  Mozilla should ask whether you want to download the file or\nwhether you want to launch an application with it.",
+    "severity": "normal",
+    "id": 95828,
+    "component": "File Handling",
+    "resolution": "WORKSFORME"
+}

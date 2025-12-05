@@ -1,0 +1,11 @@
+{
+    "description": "The history window should select and scroll to the current site if opened from \na navigator window.",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "opening history window should select current site",
+    "keywords": [],
+    "component": "Bookmarks & History",
+    "resolution": "WONTFIX",
+    "id": 70171,
+    "severity": "normal"
+}

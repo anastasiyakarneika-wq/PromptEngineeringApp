@@ -1,0 +1,14 @@
+{
+    "severity": "critical",
+    "component": "File Handling",
+    "resolution": "FIXED",
+    "id": 84106,
+    "summary": "[FIX]Not correctly retrieving post data when saving a page or frame generated from a form POST",
+    "keywords": [
+        "dataloss",
+        "relnote"
+    ],
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (X11; U; Linux 2.4.5-1mdk i586; en-US; rv:0.9+)\nGecko/20010604\nBuildID:    2001060421\n\nMozilla does not save the respond to a posted form correctly.\nInstead of saving the posted reply, it saves the form.\n\nReproducible: Always\nSteps to Reproduce:\n1.go to the referenced form\n2.type in a URL in the big text box (say http://www.mozilla.org)\n3.push dumplinks\n4.The form correct displays the page source\n5. Now try saving the output\n6. You get the form itself and not the response\n\nActual Results:  You get the form output\n\nExpected Results:  You should get the dumped page.  You do get that in netscape",
+    "status": "RESOLVED",
+    "priority": "P2"
+}

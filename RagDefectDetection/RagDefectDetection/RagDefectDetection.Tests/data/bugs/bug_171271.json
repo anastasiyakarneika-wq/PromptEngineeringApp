@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "id": 171271,
+    "component": "Bookmarks & History",
+    "resolution": "WONTFIX",
+    "summary": "Save Bookmark Group over an existing Bookmark Group",
+    "keywords": [],
+    "description": "User-Agent:       Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.1) Gecko/20020826\nBuild Identifier: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.1) Gecko/20020826\n\nSomething I've found myself wishing for quite frequently with bookmark groups is\nthe ability to overwrite a group bookmark with another one of the same name.\n\nWhat I often do is visit several links that I want to read, and leave them up\nuntil such time as it is convenient for me to do so.  However, if for some\nreason I need to reboot or shutdown Mozilla before I get a chance to read\neverything, I want to store off the bookmarks so I can resume where I left off.\n But I often want to keep re-using the same bookmark group, overwriting it with\nmy current working set of pages.  Unfortunately, that appears to require a\nmulti-step process right now:\n\n1.  Bookmark this group of tabs - mouse, menu, navigate to location, and type in\na name\n2.  Bookmarks->ManageBookmarks, navigate to existing \"working set\" group and\ndelete it.\n\nSo if I could overwrite the existing bookmark, my work would be cut in half. \nThen the next step would be if I could automate this process by designating one\nsuch group bookmark as my official \"working set\" that could be stored and\nretrieved with a single command or hotkey - i.e. without having to navigate the\nbookmark hierarchy at all.\n\nReproducible: Always\n\nSteps to Reproduce:\n1.\n2.\n3.",
+    "status": "RESOLVED",
+    "priority": "--"
+}

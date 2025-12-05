@@ -1,0 +1,11 @@
+{
+    "id": 155482,
+    "resolution": "WONTFIX",
+    "component": "Toolbars and Customization",
+    "severity": "normal",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "It would be nice to see Mozilla's current rendering mode (quirks or standards)\nas a small icon, probably in the window footer bar.  The icon would change to\nindicate that Mozilla is rendering in Standards Compliance Mode or Quirks Mode,\nproviding at-a-glance info without the need to visit the Page Info window each\ntime.  If adding another icon would confuse/bother the non-interested, it could\nbe a preferences option -- but I doubt it would be intrusive.    \n\nThe benefits of such a feature would help web \"developers\" to notice when their\nwebpages are non-compliant -- not just the obvious pages, but the ones they\nforgot about.  It would also serve as a bellwether for www standards compliance\nin general, as you surf around.  Lastly, it would be a smidge faster/easier to\ndebug external pages that have Mozilla render issues, as a first step. \n\niCab has a similar feature, where the browser has a tiny smiling icon that\nappears when a page is standards-compliant.  http://www.icab.de/smile.html",
+    "keywords": [],
+    "summary": "Need icon for Quirks vs. Standards Mode"
+}

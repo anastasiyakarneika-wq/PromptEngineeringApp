@@ -1,0 +1,11 @@
+{
+    "description": "I just tried to download a file with mozilla. Never mind that\nShift+Click to download seems to be broken right now. I right\nclicked on the URL and choose download from the popup menu.\nThen I got a dialog that was far too small to display all the\ncontents. That is ok, but when I tried to resize it, I found\nthat the window does not update after a resize. The solution\nto this problem is to make the download window respond to a\nresize. PLEASE, PLEASE, PLEASE, nobody say anything about\n\"lets just make it non resizable\". I posted another bug report\nabout this sort of problem in the prefs and it lead to a long\nflame about what mozilla \"should\" do. The result, all windows\nneed to be resizable, period.\n\nI was running on a Red Hat 6.0 Linux box when I ran into this\nproblem. I build from the CVS today (Jan 18th).",
+    "status": "RESOLVED",
+    "priority": "P3",
+    "summary": "The download window is not resizable!",
+    "keywords": [],
+    "id": 24278,
+    "resolution": "WORKSFORME",
+    "component": "File Handling",
+    "severity": "normal"
+}

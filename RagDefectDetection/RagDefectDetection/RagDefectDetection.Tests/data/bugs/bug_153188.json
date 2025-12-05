@@ -1,0 +1,11 @@
+{
+    "component": "Search",
+    "resolution": "WORKSFORME",
+    "id": 153188,
+    "severity": "normal",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "I think having a \"Make foo my default search engine\" checkbox (initially\nunchecked) in the addSearchEngine dialog would encourage more search engines to\ngive users Sherlock plugins from their sites.  For example, Google might put\n\"Make Google your default search engine\" on their home page for Mozilla users\nlike it puts \"Make Google Your Homepage!\" for IE users.",
+    "keywords": [],
+    "summary": "Add \"Make foo my default search engine\" to addSearchEngine dialog"
+}

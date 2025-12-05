@@ -1,0 +1,11 @@
+{
+    "description": "Phoenix currently doesnt recognize plugins put under  ~/.phoenix/plugins but it\nrecognizes plugins under  ~/.mozilla/plugins. \nBut it should look under ~/.phoenix/plugins not   ~/.mozilla/plugins since\nprofile directory is ~/.phoenix .",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "Mozilla Firefox should look for plugins in user's application home directory",
+    "keywords": [],
+    "id": 172891,
+    "resolution": "FIXED",
+    "component": "General",
+    "severity": "normal"
+}

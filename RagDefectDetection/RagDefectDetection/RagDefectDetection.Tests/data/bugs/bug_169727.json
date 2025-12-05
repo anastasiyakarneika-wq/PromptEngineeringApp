@@ -1,0 +1,11 @@
+{
+    "description": "Tested on: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.1) Gecko/20020919\n\nSteps to reproduce:\n1) resize the window to anything smaller than the screen (\"restored\" state)\n2) maximize the window\n3) press F11 to get into full screen modus\n4) press F11 again to quit full screen modus\n=> Result: the window is now as big as in step 2, but in the \"restored\" state.\nInitial size and position (step 1) are lost.\n=> Expected result: window should be in the maximized state and should be\nrestorable to size and position in step 1.",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "Restored window position and size lost after a full screen (linux)",
+    "keywords": [],
+    "component": "General",
+    "resolution": "DUPLICATE",
+    "id": 169727,
+    "severity": "normal"
+}

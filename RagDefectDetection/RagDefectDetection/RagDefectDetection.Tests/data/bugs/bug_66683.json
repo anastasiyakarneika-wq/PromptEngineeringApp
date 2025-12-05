@@ -1,0 +1,13 @@
+{
+    "description": "spun of 21515. for some reason, the feature is messed on non-navigator sidebars\n(the entire menuitem is gone).",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "non-navigator sidebars's save image as not showing (related to 21515)",
+    "keywords": [
+        "regression"
+    ],
+    "id": 66683,
+    "component": "File Handling",
+    "resolution": "INVALID",
+    "severity": "normal"
+}

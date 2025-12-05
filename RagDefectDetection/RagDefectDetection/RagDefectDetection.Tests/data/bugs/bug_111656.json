@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "id": 111656,
+    "component": "General",
+    "resolution": "WORKSFORME",
+    "keywords": [],
+    "summary": "Flickering icon in URL location field",
+    "priority": "P4",
+    "status": "RESOLVED",
+    "description": "The link rel=\"icon\" feature is a very nice generalisation of favico, but the\nresulting graphic has a tendency to flicker when moving between pages, even when\nthose pages are referencing the exact same graphic in the exact same location,\nso that the graphic remains, overall, unchanged.\n\nnavigating around www.mozilla.org illustrates this well. There would ideally be\nno flicker.\n\nSuggest that, (only if link is followed to new page on same server?), the\ndecision to redraw the graphic (and update the URL?) only be made once the head\nof the new page has been read to find out whether the same graphic, or no\ngraphic, is referenced. (Not sure introducing hysteresis on updating the URL is\nnecessarily a good thing, since you then can't e.g. see redirects in action and\nlearn urls to hand-edit.)\n\nI've no idea what should happen if e.g. image type is unspecified/differs and\ncontent negotiation comes into play."
+}

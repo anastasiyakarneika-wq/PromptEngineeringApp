@@ -1,0 +1,14 @@
+{
+    "severity": "normal",
+    "id": 69938,
+    "resolution": "WONTFIX",
+    "component": "File Handling",
+    "summary": "Downloads are stored in $TMPDIR|$TMP|$TEMP|/tmp first and then moved to the selected path only after the download finishes / location is selected",
+    "keywords": [
+        "dataloss",
+        "helpwanted"
+    ],
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (X11; U; Linux 2.4.1 i686; en-US; 0.8) Gecko/20010215\nBuildID:    2001021503\n\nWhen downloading a file (any file), regardless of the path selected\nin the download file dialogue, the file is created with a temp name\nin the /tmp dir. This is incorrect behaviour, and leads to broken\ndownloads, full /tmp dir, and possibly worse. Many systems (mine\nincluded) have a restricted size for /tmp, so trying to download\nany file larger than that size will fail - even though you have\nselected to save it into a path that DOES have enough space.\n\nReproducible: Always\nSteps to Reproduce:\n1.Restrict /tmp size (seperate partition etc)\n2.Download a file larger than /tmp capacity\n3.Watch /tmp fill up and download fail\n\nActual Results:  A file of random size (less than orginal size) is created in the\nselected destination. Temp file appears to remain in /tmp dir.\n\nExpected Results:  Mozilla should save the file DIRECTLY into the selected path,\nrather then save it into /tmp then move it",
+    "status": "RESOLVED",
+    "priority": "--"
+}

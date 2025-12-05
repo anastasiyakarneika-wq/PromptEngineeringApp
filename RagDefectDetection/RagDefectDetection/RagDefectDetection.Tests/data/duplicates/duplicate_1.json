@@ -1,0 +1,4 @@
+{
+    "id": 172733,
+    "summary_and_description": "Incorrect context menu display during bookmark searches\n\nEnvironment: Windows XP, Build 20021004\n\nReproduction Steps:\n1. Activate bookmarks panel and highlight any bookmark/folder\n2. Perform a search that filters out the initially selected bookmark, leaving empty space\n3. Right-click the blank area\n\nObserved Behavior:\nThe right-click menu shows options for the previously selected (now hidden) bookmark instead of being empty.\n\nRoot Cause:\nLikely related to selection state persistence during searches (see Bug 156576). Suggested fix: Clear selection when initiating a search."
+}

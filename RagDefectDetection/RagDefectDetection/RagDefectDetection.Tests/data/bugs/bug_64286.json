@@ -1,0 +1,11 @@
+{
+    "id": 64286,
+    "component": "File Handling",
+    "resolution": "WONTFIX",
+    "severity": "S3",
+    "description": "It would be very practical to be able to browse directly any .zip, .tgz, .jar,\nor .tar file, like:\n\nfile:///home/me/thing.zip/index.html\n\nor:\n\nhttp://my.site.com/dir/myarch.tgz/page1.html\n\n\tWe would obviously need a new mime-type, like application/browseable-archive,\nactiveable at the web-server side.\n\n\tWhile browsing the archive, the root directory should be resetted to the root\nof the archive. Then if the page\nhttp://my.site.com/dir/myarch.tgz/page1.html\ncontains a link like:\n\n <a href=\"/dir2/file2.html\">\n\nit would be accessible with the URL:\n\nhttp://my.site.com/dir/myarch.tgz/dir2/file2.html\n\ncorresponding to the file /dir2/file2.html in myarch.zip.\n\n\tIt would greatly simplify off-line browsing, saving pages with images, web-site\ntransporting and updating.....",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "web archive save/view support (KDE/Konqueror-like .war, .zip, .tgz, .tar.gz, .tar.bz2, tb2, .tbz2, .jar)",
+    "keywords": []
+}

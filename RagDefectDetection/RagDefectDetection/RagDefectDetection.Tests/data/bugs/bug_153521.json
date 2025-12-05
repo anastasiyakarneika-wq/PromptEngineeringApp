@@ -1,0 +1,11 @@
+{
+    "id": 153521,
+    "resolution": "WORKSFORME",
+    "component": "File Handling",
+    "severity": "major",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Not sure I actually have the right component here so feel free to reassign if\nyou have a better idea.\n\nThe bugzilla # in the test URL isn't significant, just selected at random.  The\nproblem is occuring on Mac OS X with Mozilla 1.0.  I don't have access to any\nother platforms to test on at the moment so logging as a Mac specific bug.\n\nWhen viewing a bugzilla bug, if I select File->Save Page As... and then cancel\nin the file save dialog I can't try and save the file again.  After the cancel I\nget the error message \"The link could not be saved.  The web page might have\nbeen removed or had its name changed.\" when I select File->Save Page As...  Nor\ncan I reload the page or paste the link into the location field of a new browser\nwindow.  With the test URL listed it results in the error \"The file\n/show_bug.cgi?id=150000 cannot be found. Please check the location and try\nagain.\"  The page is accessible if you quit and re-launch Mozilla.",
+    "keywords": [],
+    "summary": "Canceling a file save fubars a .cgi page until Mozilla is relaunched"
+}

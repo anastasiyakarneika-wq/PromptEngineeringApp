@@ -1,0 +1,11 @@
+{
+    "description": "1.1prefinal 2002081422 Mac OS 9.0.4 NuBus\n\nfile>open location\nftp://ftp.mozilla.org/pub/mozilla/nightly/latest/mozilla-mac-trunk-stub.bin\n\nwhat happens: a dialog \"Downloading mozilla-mac-trunk-stub.bin\"\n\nIt suggests: Open using _StuffIt Expander\u00aa_ (bug 163141)\n\nie4.5:\ntested in mac ie4.5, the ftp listing labels the file as \"MacBinary\", and by the\ntime mac ie has saved the file (to the desktop), it was a StuffIt5 Archive\n[SIT5SIT!] -- MacIE launched StuffIt and asked it to decode the MacBinary file.\n\nwhat should happen: mozilla should decode macbinary automatically, like ie.",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "Automatically decode MacBinary and BinHex files like Mac IE",
+    "keywords": [],
+    "id": 163142,
+    "resolution": "WONTFIX",
+    "component": "File Handling",
+    "severity": "S3"
+}

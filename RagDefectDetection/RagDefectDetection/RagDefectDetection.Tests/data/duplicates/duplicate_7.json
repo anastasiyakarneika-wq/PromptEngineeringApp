@@ -1,0 +1,4 @@
+{
+    "id": 101851,
+    "summary_and_description": "Inconsistent window control states in save/download dialog\n\nIssue:\nThe save/download dialog exhibits contradictory window control behavior:\n- Maximize button is visually disabled (correct)\n- Right-click title bar menu incorrectly shows enabled Maximize/Size options\n- Selecting these options causes abnormal dialog behavior\n\nTechnical Analysis:\nRoot cause traced to window style flags:\n- Spy++ reveals DS_MODALFRAME (0x00000080) flag set\n- Verified via test application: Removing DS_MODALFRAME fixes menu behavior\n- Likely originates from XP Toolkit/Widgets layer\n\nReproduction Steps:\n1. Open any save/download dialog\n2. Right-click title bar\n3. Observe enabled (but non-functional) Maximize/Size options\n4. Select either option to see UI corruption\n\nImpact:\nWhile not functionally critical, this creates:\n- UI inconsistency (disabled button vs enabled menu)\n- Potential for minor dialog corruption"
+}

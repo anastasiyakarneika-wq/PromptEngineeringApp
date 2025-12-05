@@ -1,0 +1,11 @@
+{
+    "description": "split off from 82851.\n\nfile:///~/x.html should load x.html from my $HOME\n\nfile:///~kim/z.html should load z from kim's $HOME\n\nvery annoying to have to type in /home/jmd when I want to load a quick testcase\nin my ~.",
+    "status": "RESOLVED",
+    "priority": "P3",
+    "summary": "file:// needs to expand ~ to home directory in some OS",
+    "keywords": [],
+    "id": 93141,
+    "component": "Address Bar",
+    "resolution": "FIXED",
+    "severity": "S3"
+}

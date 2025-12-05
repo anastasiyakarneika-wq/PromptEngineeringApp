@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetEnv" Version="3.1.1" />
+    <PackageReference Include="Microsoft.KernelMemory" Version="0.98.250508.3" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.67.1" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.AzureOpenAI" Version="1.67.1" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.Weaviate" Version="1.68.0-preview" />
+    <PackageReference Include="Microsoft.SemanticKernel.Core" Version="1.67.1" />
+    <PackageReference Include="Weaviate.Client" Version="0.0.1-beta.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RagDefectDetection.Core\RagDefectDetection.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update=".env">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+{
+    "severity": "S3",
+    "id": 101743,
+    "resolution": "WONTFIX",
+    "component": "File Handling",
+    "keywords": [],
+    "summary": "compute md5 sum in \"Saving file\" progress window [md5sum]",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Quite often files for download are accompanied by an md5 checksum to allow the\nuser to verify that the file's contents have been transmitted correctly. It\nwould potentially be useful for mozilla to compute the md5 checksum information\nand display it as part of the \"Saving file\" progress window."
+}

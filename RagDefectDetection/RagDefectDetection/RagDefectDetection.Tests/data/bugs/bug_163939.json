@@ -1,0 +1,11 @@
+{
+    "id": 163939,
+    "resolution": "WONTFIX",
+    "component": "Address Bar",
+    "severity": "S4",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "When you left click on the address bar once then the whole URL-text gets\nhighlighted as it suppose to, but the cursor doesn't get placed at the end of\nthe text (unless you click again)! Because of this, if you click the left arrow\non the keyboard (while the full-URL-text is still highlighted) the cursor\n\"jumps\" (get placed) at the beginning of the URL-text instead at the end of it.\nOr, while still in this \"full-highlight with no cursor\" state you can't select\npartial text with the mouse (by holding down the left mouse button on a\nparticular letter in the URL then moving the mouse pointer to the left or to the\nright) either!\n\nThis is very annoying, because all other web browsers behave differently. People\nwho already get used to a certain address bar behavior in previous web browsers\n(like Netscape 4.x; IE5.x; IE6.x) in the past 6 years will hate to re-learn a\nnew address bar behavior.",
+    "keywords": [],
+    "summary": "single-click in URL bar doesn't place caret visibly"
+}

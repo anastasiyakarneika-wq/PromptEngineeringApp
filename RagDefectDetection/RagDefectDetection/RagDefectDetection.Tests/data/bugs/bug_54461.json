@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "id": 54461,
+    "resolution": "WORKSFORME",
+    "component": "File Handling",
+    "keywords": [],
+    "summary": "Assertion: no components in scope (nsFilePicker.js) on Save",
+    "priority": "P4",
+    "status": "RESOLVED",
+    "description": "FreeBSD 4.1 20000927xx\n\nClicked on an octet-stream (see URL - bugzilla attachment to bug 54338).\nrequester comes up, asks if I want to Save File, etc.  I hit the More Info\nbutton that makes it send the mozilla window to the plugin finder.  Then I hit\nthe Save File button and get this assertion.\n\nIt's trying to load @mozilla.org:filepicker;1 which resolves to rel:nsFilePicker.js.\n\n###!!! ASSERTION: No 'Components' in scope!: '0', file\nxpcwrappednativescope.cpp, line 156\n\nAttaching backtrace/structure dump"
+}

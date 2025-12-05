@@ -1,0 +1,13 @@
+{
+    "severity": "normal",
+    "id": 46407,
+    "component": "Shell Integration",
+    "resolution": "DUPLICATE",
+    "keywords": [
+        "helpwanted"
+    ],
+    "summary": "The current URL cannot be querried by another app",
+    "priority": "P3",
+    "status": "RESOLVED",
+    "description": "Mozilla does not respond to a request for the 'curl' property of the first \n'cwin'.  Older versions of Netscape Navigator respond by returning the \ncurrent URL of the top-most window."
+}

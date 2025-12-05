@@ -1,0 +1,11 @@
+{
+    "id": 58744,
+    "resolution": "INCOMPLETE",
+    "component": "File Handling",
+    "severity": "major",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/4.76 [en] (Windows NT 5.0; U)\nBuildID:    all\n\nSince Netscape version 1.0, it has supported OLE automation.  A large number of \nother programs rely on this, including all Download Managers.  The lack of OLE \nmeans they can't take over downloads from the browser.\n\nwww.getright.com www.gozilla.com are a couple of the download managers.\n\nReproducible: Always\nSteps to Reproduce:\n1. use GetRight with Netscape.\n2. Click any EXE file\n3. GetRight is not able to take over\n\nActual Results:  Netscape did the download            \n\nExpected Results:",
+    "priority": "P3",
+    "status": "RESOLVED",
+    "summary": "3rd party download managers not supported",
+    "keywords": []
+}

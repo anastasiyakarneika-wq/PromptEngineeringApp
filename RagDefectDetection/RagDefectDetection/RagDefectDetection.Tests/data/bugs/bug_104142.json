@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "want infinite Back",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "Currently there is a hard, rather small limit on the length of the trail which\nthe Back button will retrace over.  If you exceed it, pages are silently dropped\noff the end.\n\nThere should be no such limit.  No matter how far I have browsed I should be\nable to get all the way back to the beginning.\n\n[Note this is not the same as bug 62010.  That bug is about the length of the\ndrop-down menu.  This is about the total length of the session history.]",
+    "severity": "normal",
+    "id": 104142,
+    "component": "General",
+    "resolution": "WONTFIX"
+}

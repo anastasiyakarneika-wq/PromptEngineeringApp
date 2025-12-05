@@ -1,0 +1,13 @@
+{
+    "description": "Need to add an alert to the Save As dialog warning users about potential\nchanging of HTML data when saving in the default format. see <a\nhref=\"http://bugzilla.mozilla.org/show_bug.cgi?id=116008\">116008</a> for rationale.\n\nalso related to: <a\nhref=\"http://bugzilla.mozilla.org/show_bug.cgi?id=124996\">124996</a>",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "add an alert to \"save page as\" dialog",
+    "keywords": [
+        "dataloss"
+    ],
+    "resolution": "INCOMPLETE",
+    "component": "File Handling",
+    "id": 125234,
+    "severity": "critical"
+}

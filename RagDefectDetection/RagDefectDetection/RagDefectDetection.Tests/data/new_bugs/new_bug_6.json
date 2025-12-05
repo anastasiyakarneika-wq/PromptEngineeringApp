@@ -1,0 +1,4 @@
+{
+  "most_similar_bug": 133010,
+  "summary_and_description": "Saved pages corrupt binary data URIs when containing embedded resources\n\nWhen saving pages that use data: URIs for inline resources (e.g., base64-encoded images), the saved filesystem paths improperly escape the URI scheme markers, breaking resource resolution.\n\nReproduction steps:\n1. Save a page containing elements like <img src=\"data:image/png;base64,...\">\n2. Open saved page locally\n\nActual Results:\nResources fail to load with errors like:\n\"Not allowed to load local resource: data%3Aimage/png;base64,...\"\n\nExpected Behavior:\ndata: URIs should maintain original formatting in saved pages\n\nThis differs from general encoding issues because:\n1. Specifically affects URI scheme identifiers (the ':' character)\n2. Corrupts binary data rather than text paths\n3. Requires special handling for RFC-2397 compliance\n4. Breaks functionality rather than just aesthetics"
+}

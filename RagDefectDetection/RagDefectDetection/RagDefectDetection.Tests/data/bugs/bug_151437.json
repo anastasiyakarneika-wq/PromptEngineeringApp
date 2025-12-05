@@ -1,0 +1,11 @@
+{
+    "description": "The View Image context menu item doesn't give a referrer to the image when it\nloads the image.  This is usually ok, since the image is usually cached, but if\nI hit reload, the server might refuse to let me see the image again.",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "View Image context menu item omits referrer",
+    "keywords": [],
+    "id": 151437,
+    "resolution": "FIXED",
+    "component": "General",
+    "severity": "minor"
+}

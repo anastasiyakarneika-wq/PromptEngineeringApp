@@ -1,0 +1,11 @@
+{
+    "summary": "UI to allow external handlers for internal types",
+    "keywords": [],
+    "description": "For those who cannot update QuickTime to 5.0.2 to solve bug 69719\nand similar cases we need options (in Preferences dialog) to set\nindividual mime-types (images...) to be processed by Mozilla\ninternaly even if they are associated with another application",
+    "status": "RESOLVED",
+    "priority": "--",
+    "severity": "normal",
+    "id": 92073,
+    "component": "Settings UI",
+    "resolution": "WONTFIX"
+}

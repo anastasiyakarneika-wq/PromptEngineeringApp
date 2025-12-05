@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "id": 96181,
+    "resolution": "INACTIVE",
+    "component": "File Handling",
+    "summary": "[RFE] Impossible to select and download multiple files per FTP",
+    "keywords": [],
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:0.9.2) Gecko/20010628\nBuildID:    2001062815\n\nWhen you're looking at the directory content listing apparently\nthere's no way to choose multiple files (or select all of them)\nand download... you must download them one at a time... so\nI switch to IE and do this the most natural way...\n\nReproducible: Always\nSteps to Reproduce:\n1. Go to an ftp site\n2. List the content of a directory with multiple files\n3. Try to download them all\n\nActual Results:  You must download them one at a time\n\nExpected Results:  You should be able to perform multiple selection just as in\nevery decent ftp utility",
+    "status": "RESOLVED",
+    "priority": "--"
+}

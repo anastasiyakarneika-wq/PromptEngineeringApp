@@ -1,0 +1,11 @@
+{
+    "summary": "Unable to ftp Quicken file from link",
+    "keywords": [],
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.0rc1)\nGecko/20020417\nBuildID:    2002041711\n\nOn the referenced URL, step 1 contains a link which is supposed to bring up a\ndialog to start the download of the file ofxroots.crt. When I click on this\nlink, this does not happen. It does not work on NS 4.75, but does work for Win IE.\n\nReproducible: Always\nSteps to Reproduce:\n1.Point browser to referenced URL\n2.Click on link in step 1\n3.Nothing further seems to happen\n\nActual Results:  File save dialog does not appear, so file cannot be downloaded.\n\nExpected Results:  File save dialog should appear so file can be downloaded.",
+    "status": "RESOLVED",
+    "priority": "--",
+    "severity": "normal",
+    "resolution": "FIXED",
+    "component": "File Handling",
+    "id": 143356
+}

@@ -1,0 +1,11 @@
+{
+    "component": "File Handling",
+    "resolution": "DUPLICATE",
+    "id": 159241,
+    "severity": "normal",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "This issue is split off bug 148797.\n\nFrom Bug 148797 Comment #11 (by Adam Lock):\n\nI might open a new bug to deal with <link> tags with a rel value specifying\nshortcut/icon. This is something else we could be saving and should be easy\nenough to do.\n\nFrom Bug 148797 Comment #25 (by me):\n\nAdam, just came to my mind when seeing this checkin in bonsai: what about <link\nrel=\"icon\" ...> (or \"shortcut icon\")?\nShouldn't that be saved with the page as well?\n\nEnough said. Would be a nice thing to do, IMHO.",
+    "keywords": [],
+    "summary": "should save shortcut icon with web page"
+}

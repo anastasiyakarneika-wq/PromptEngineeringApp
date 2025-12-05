@@ -1,0 +1,11 @@
+{
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (Windows; U; Win98; en-US; rv:0.9.8) Gecko/20020204\nBuildID:    2002020406\n\nWhen you add a site with a long name the bookmark drop down menu is too wide. \nIf you have sub sub directories all with long names in them the popup bookmark\nmenus popup in inconvenient places.  The result is the bookmark menu appears\nmessy and way to wide. \n\nReproducible: Always\nSteps to Reproduce:\n1.add bookmarks with long names in them especially in sub and sub sub folders\n2.click \"bookmarks\"\n3.navigate to the sub sub directories\n\nActual Results:  The bookmark menu is too wide resulting in the popup bookmark\nmenus in sub sub directory folders to come up in inconvenient places.  \n\nExpected Results:  I suggest cutting the character limit at least in half.",
+    "keywords": [],
+    "summary": "Make bookmarks drop-down lists' max width dependent on font size or screen resolution",
+    "id": 129399,
+    "component": "Bookmarks & History",
+    "resolution": "WORKSFORME",
+    "severity": "normal"
+}

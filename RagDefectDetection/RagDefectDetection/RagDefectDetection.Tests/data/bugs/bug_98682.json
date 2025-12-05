@@ -1,0 +1,11 @@
+{
+    "resolution": "WORKSFORME",
+    "component": "Bookmarks & History",
+    "id": 98682,
+    "severity": "normal",
+    "status": "RESOLVED",
+    "priority": "P3",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:0.9.3) Gecko/20010801\nBuildID:    2001080110\n\nI have a bookmark pointing to \"file://///HOST/share/file.txt\".  When HOST is not\nresponding (either because it is shut off or I have not authenticated to it\nyet), trying to view the bookmarks submenu containing the bookmark hangs mozilla\nfor ~10 seconds.\n\nReproducible: Always\nSteps to Reproduce:\n1. Get two Windows NT boxes, A and B.\n2. Make sure they are in the same \"workgroup\".\n3. Export a directory from A as \"share\" so that it can be accessed from B.\n4. Create a text file \"file.txt\" in the shared directory.\n5. Verify that you can access \"file.txt\" using Mozilla on B.\n6. On B, add a bookmark for \"file.txt\".  Verify that it works.\n7. Shut down both machines, start B and try to open the bookmark menu.\n\nActual Results:  Mozilla hangs for maybe ten seconds, then shows the bookmark\nmenu as it should.\n\nExpected Results:  Mozilla should have displayed the bookmark menu directly.",
+    "keywords": [],
+    "summary": "Non-responding Windows UNC share hangs bookmark menu"
+}

@@ -1,0 +1,4 @@
+{
+  "most_similar_bug": 172780,
+  "summary_and_description": "Custom toolbar configurations fail to persist between sessions when using multiple monitors. After setting up a preferred toolbar layout on a secondary display, the configuration reverts to default when reopening the application on a different monitor setup.\n\nSteps to Observe:\n1. Configure toolbars on a secondary monitor\n2. Close the application\n3. Reopen on primary monitor only\n4. Observe toolbar layout\n\nCurrent Result:\nToolbar configuration reverts to default when display setup changes\n\nExpected Result:\nToolbar configuration should persist regardless of monitor setup\n\nRoot Cause:\nToolbar positions appear to be stored in absolute screen coordinates rather than relative to application window\n\nThis is distinct from startup rendering issues as it involves configuration persistence across sessions and relates to multi-monitor support rather than rendering timing."
+}

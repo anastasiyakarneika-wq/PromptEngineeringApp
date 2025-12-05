@@ -1,0 +1,11 @@
+{
+    "severity": "--",
+    "id": 141706,
+    "component": "File Handling",
+    "resolution": "DUPLICATE",
+    "summary": "with %xx, e-mail address not same as specified in <a href=\"mailto:..\"> tag",
+    "keywords": [],
+    "description": "test with Mozilla 1.0 RC1 (Build ID 2002041711)\n\ntry this href in <a>\n   1. mailto:xyz@xyz.com?subject=(normal)\n   2. mailto:%61xyz@xyz.com?subject=(front %61)\n   3. mailto:%61%61xyz@xyz.com?subject=(front %61%61)\n   4. mailto:xyz%61@xyz.com?subject=(rear %61)\n   5. mailto:xyz%61%61@xyz.com?subject=(rear %61%61)\n   6. mailto:%61xyz%61@xyz.com?subject=(front rear %61)\n   7. mailto:%61%61xyz%61%61@xyz.com?subject=(front rear %61%61)\n   8. mailto:xyz%20@xyz.com?subject=(rear %20)\n\n\neach will brings new mail composer window with these attributes\n   1. to = \"xyz@xyz.com\"\n       subject = \"(normal)\"\n   2. to = \"axyz@xyz.com?s\"\n       subject = \"(front a)\"\n   3. to = \"aaxyz@xyz.com?sub\"\n       subject = \"(front aa)\"\n   4. to = \"xyza@xyz.com?s\"\n       subject =\"(rear a)\"\n   5. to = \"xyzaa@xyz.com?sub\"\n       subject = \"(rear aa)\"\n   6. to = \"axyza@xyz.com?sub\"\n       subject =\"(front rear a)\"\n   7. to = \"aaxyzaa@xyz.com?subject\"\n       subject = \"(front rear aa)\"\n   8. to = \"xyz\", \"@xyz.com?s\"   *** 2 addresses ***\n       subject = \"(rear  )\"\n\n- \"to\" in items (2) to (8) is not the same as specified in html <a href=> tag.\n- each %xx brings additional 2 chars after original e-mail address.\n- if %xx is %20 and is in front of \"@\", e-mail address will be separated.",
+    "priority": "--",
+    "status": "RESOLVED"
+}

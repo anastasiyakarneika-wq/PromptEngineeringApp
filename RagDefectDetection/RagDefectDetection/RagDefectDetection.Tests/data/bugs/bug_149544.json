@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "Protect/lock cookies from USER/PROGRAM deletion (i.e. \"Remove all cookies\")",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "I'd like to request a feature to lock certain cookies (as opposed to blocking them). This way you can keep useful cookies (with login-information for example). They should be maintained when you select 'remove all cookies'. Also you should be able to prevent certain cookies from being changed this way.",
+    "severity": "normal",
+    "resolution": "WONTFIX",
+    "component": "Security",
+    "id": 149544
+}

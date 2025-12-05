@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "id": 171467,
+    "resolution": "DUPLICATE",
+    "component": "Bookmarks & History",
+    "keywords": [],
+    "summary": "Run check on bookmark validity",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Please ADD to \"Manage bookmarks\" a button (option) which will do the following:\n\n- when the option is clicked | selected | turned on the mozilla should start\n  connecting to the URL specified in the \"Bookmark\" file\n- should happen in BACKGROUND ...  NO RENDERING on the screen !!!!\n- mozilla should parse the page in background  and \n   if it finds the code 404  or\n   if the the connection times out\n\n  the mozilla should create an VISIBLE HTML page which will contain\n  all the \"failing\" URLs.\n\nThe user should have an option to delete | remove | do nothing  with dead\nbookmark URL.\n\n\nRationale:\nUsers (including me) collected over time a tremendeous amount of URLs\nwhich, in genereal,  stop working after whille. INTERNET is very dynamic\nenviroment. Not a lot of people want to spend a time to go through their\nbookmarks and check which one works and which one does not work anymore\n\n\nthrough that VISIBLE HTML page"
+}

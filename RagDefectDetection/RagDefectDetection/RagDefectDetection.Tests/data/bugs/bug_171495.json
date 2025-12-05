@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "component": "Address Bar",
+    "resolution": "WONTFIX",
+    "id": 171495,
+    "keywords": [],
+    "summary": "implement search in urlbar autocomplete",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Having search be in the tab cycle in the urlbar autocomplete (as it currently\nworks in mozilla) would be insanely useful."
+}

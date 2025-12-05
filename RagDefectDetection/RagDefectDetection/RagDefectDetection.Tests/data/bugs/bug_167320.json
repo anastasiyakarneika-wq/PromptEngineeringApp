@@ -1,0 +1,13 @@
+{
+    "severity": "--",
+    "resolution": "WORKSFORME",
+    "component": "File Handling",
+    "id": 167320,
+    "summary": "eternal/endless/infinite loop when associating Firefox/SeaMonkey/Mozilla as a helper application for a given file type",
+    "keywords": [
+        "helpwanted"
+    ],
+    "description": "User-Agent:       Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.1) Gecko/20020826\nBuild Identifier: Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.1) Gecko/20020826\n\nI think the download manager should either prevent the user from choosing\nmozilla itself as \"open with\", or (better) figure out that the user wants the\nfile opened in the browser, not by the download manager at all.\n\nReproducible: Always\n\nSteps to Reproduce:\n1. download a binary file\n2. choose mozilla.exe to handle file\n3. uncheck the box 'always ask'\n4. have fun...",
+    "status": "RESOLVED",
+    "priority": "--"
+}

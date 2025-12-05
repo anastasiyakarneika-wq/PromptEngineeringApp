@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "username/password dialog when having favicons from password protected sites in bookmarks",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "on one of my .htaccess protected sites I have a favicon.ico. The favicon.ico is\ninside the .htaccess protected area.\nI've added this site to the bookmark. Now when ever I open the bookmark folder\nI'm prompted for a username/password! Very very bad!",
+    "severity": "normal",
+    "id": 133755,
+    "component": "General",
+    "resolution": "WORKSFORME"
+}

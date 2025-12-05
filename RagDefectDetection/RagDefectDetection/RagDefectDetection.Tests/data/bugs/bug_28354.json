@@ -1,0 +1,13 @@
+{
+    "id": 28354,
+    "resolution": "FIXED",
+    "component": "Tabbed Browser",
+    "severity": "N/A",
+    "description": "Good Morning. :)\n\nI would certainly love a setting that would ask mozilla to be semi-transparent,\nin much the same manner as Aterm or Eterm. Those two programs share the ability\nto shade the background by X percent before drawing atop it; some features\nprovided by one but not the other, but Would Be Nice To Have, include: xor, or,\nand, nand, invert, andInverted etc. modes for drawing, tinting, and other fun\noptions.\n\nPlease? :)",
+    "priority": "P5",
+    "status": "RESOLVED",
+    "summary": "Implement hidden pref to enable transparent browsers ala Aterm or Eterm",
+    "keywords": [
+        "helpwanted"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "Not Mac-like behavior.\n\nThis is a text field, a single click should give you an insertion point, a\ndouble click should select the entire word (an entire URL should be covered, no\nspaces) and a triple-click should select the entire line (e.g. space-separated\nsearch terms).\n\nThis makes editing a URL very frustrating, especially if you're doing it over\nand over, e.g. looking at all the images in a directory by changing the image\nnumber.  You have to click, wait, click to get the behavior mac users expect\nfrom just a click.",
+    "keywords": [
+        "polish"
+    ],
+    "summary": "browser.urlbar.clickSelectsAll should default to false on Macintosh",
+    "resolution": "DUPLICATE",
+    "component": "Address Bar",
+    "id": 134649,
+    "severity": "normal"
+}

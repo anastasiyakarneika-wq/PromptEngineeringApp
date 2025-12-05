@@ -1,0 +1,11 @@
+{
+    "description": "Sort order in \"Cookie Sites\" needs to be done by Top Level Domain (TLD) on down\nin the Cookie Manager.\n\nCurrently the cookie manager sorts sites alphabetically from left to right.\n\nSo \"my.yahoo.com\" is not located anywhere near \"www.yahoo.com\".\n\nThe sort needs to be done so it sorts by TLD first, then domain, sub-domain, etc...\n\nThe current behavior makes it very difficult to tell all the sites in a domain\nthat may be setting cookies.",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "Cookie Manager: sort \"Cookie Sites\" should sort by Domain (TLD -> left, as labels, not strings, etc.)",
+    "keywords": [],
+    "resolution": "WORKSFORME",
+    "component": "Settings UI",
+    "id": 142179,
+    "severity": "normal"
+}

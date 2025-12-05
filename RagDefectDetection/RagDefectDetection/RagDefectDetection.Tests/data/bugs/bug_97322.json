@@ -1,0 +1,11 @@
+{
+    "severity": "--",
+    "component": "File Handling",
+    "resolution": "WORKSFORME",
+    "id": 97322,
+    "keywords": [],
+    "summary": "Unknown content application picker allows choosing of things that aren't applications",
+    "status": "RESOLVED",
+    "priority": "--",
+    "description": "- open a file that brings up the unknown content dialog\n- click the radio button to open with an application\n- click the 'choose' button\n\nexpected:\n- can only pick applications\n\nactual:\n- can pick any file at all, regardless of type."
+}

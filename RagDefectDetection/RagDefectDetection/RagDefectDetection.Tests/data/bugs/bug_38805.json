@@ -1,0 +1,11 @@
+{
+    "description": "If you often have 10 or more browser windows open, the sidebar is an incredible\nwaste of space. However, I like the functionality, the panels. E.g. I like to\nhave headlines from various sources at one glance on request. Opening/closing\nthe sidebar for this doesn't seem to be the optimal solution in all cases.\n\nIt would be cool to have pages similar to <http://my.netscape.com>, which I can\nopen in the browser and to which I can add panels, but of course local and I\nshouldn't be limited to one of those pages.",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "my.sidebar - Customizable chrome page to display sidebar panels",
+    "keywords": [],
+    "id": 38805,
+    "component": "Tabbed Browser",
+    "resolution": "WONTFIX",
+    "severity": "normal"
+}

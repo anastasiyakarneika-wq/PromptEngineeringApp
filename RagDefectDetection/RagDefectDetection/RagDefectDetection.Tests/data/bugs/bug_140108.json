@@ -1,0 +1,11 @@
+{
+    "resolution": "WONTFIX",
+    "component": "Page Info Window",
+    "id": 140108,
+    "severity": "normal",
+    "description": "In the \"Page Info\" dialog box (accessed by right-clicking on a page and\nselecting \"View Page Info\"), another tab should be added giving whatever\ninformation about the server was obtained from the HTTP headers. This usually\nincludes what server software is being used, and what build or version number.\nThis information could be very useful to some users.",
+    "priority": "--",
+    "status": "RESOLVED",
+    "summary": "The \"Page Info\" Dialog should have a \"Server\" Tab",
+    "keywords": []
+}

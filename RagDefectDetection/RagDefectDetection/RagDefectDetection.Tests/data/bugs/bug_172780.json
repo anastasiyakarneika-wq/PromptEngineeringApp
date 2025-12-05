@@ -1,0 +1,11 @@
+{
+    "severity": "normal",
+    "resolution": "WONTFIX",
+    "component": "Toolbars and Customization",
+    "id": 172780,
+    "keywords": [],
+    "summary": "Reduce startup time by showing window before loading customized toolbars",
+    "priority": "--",
+    "status": "RESOLVED",
+    "description": "I have a basic idea of how the start up loading time could be reduced. I don't\nknow if the gain would even be measurable, and if not, just WONTFIX this.\n\nAnyway, from what I can see with my bare eyes, it appears that all toolbar\nbuttons and bookmarks are fully loaded and placed on the toolbar when the window\nis first displayed on screen. I can only assume that loading and placing all the\nbuttons on the toolbar takes at least 1/10th of a second, and possibly more than\nthat. My idea on how the startup speed could be slightly increased is to paint\nthe window before actually loading the toolbar and processing the bookmarks.htm\nfile. Since I haven't seen the code for Phoenix, I can only assume that it could\ntake long to process a large bookmarks.htm file, and since the personal toolbar\ndata is stored inside that file, the startup speed must suffer.\n\nI am a programmer myself and I have made a text editor with customizable\ntoolbars. Since startup speed is very important in a text editor, I have managed\nto reduce the startup time by painting the main window before actually loading\nall the buttons in the toolbar. The placeholder for the toolbar is there, but\nthe actual buttons are not loaded until afterwards. This gives the impression\nthat it starts faster than it actually does."
+}

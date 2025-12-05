@@ -1,0 +1,4 @@
+{
+  "most_similar_bug": 172733,
+  "summary_and_description": "Context menu fails to load for bookmarks when network connection is slow (timeout after 2s). Using build 20021004 on WinXP\n\nSteps to Reproduce:\n1. Set network throttling to 'Slow 3G' in developer tools\n2. Open bookmarks sidebar and search for any bookmark\n3. Right-click a bookmark\n\nResult:\nContext menu either:\n- Shows 'Loading...' indefinitely\n- Fails to appear with console error: 'Network timeout fetching menu items'\n\nExpected:\nContext menu should appear with local cached data when offline/network issues occur.\n\nNote: Works instantly on fast connections. Only affects HTTP/HTTPS bookmarks (not local file:// ones)."
+}

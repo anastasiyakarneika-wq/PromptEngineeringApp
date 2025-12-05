@@ -1,0 +1,11 @@
+{
+    "component": "File Handling",
+    "resolution": "INVALID",
+    "id": 101851,
+    "severity": "S3",
+    "description": "The save/download dialog has the maximize button correctly disabled, but if you\nright click the dialog's title bar, you'll see that the entries for maximize and\nsize are still enabled.  And you can choose these entries to do bizarre things\nto the dialog.\n\nFrom looking at this with Spy++, it looks like it's due to the DS_MODALFRAME bit\n(0x00000080) being set on the dialog's window styles.  I did a quick sample app\nand could reproduce this result;  getting rid of DS_MODALFRAME in my sample app\nmade the system menu behave correctly.  I'm not sure how or what sets the style\nbits for the dialog, but I'm guessing this belongs in XP Toolkit/Widgets.",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "Save/download dialog has system menu with maximize and size enabled",
+    "keywords": []
+}

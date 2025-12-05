@@ -1,0 +1,13 @@
+{
+    "id": 34763,
+    "component": "Settings UI",
+    "resolution": "WONTFIX",
+    "severity": "normal",
+    "status": "RESOLVED",
+    "priority": "P3",
+    "description": "Subject: Re: font selection interface\nFrom: Jungshik Shin <jshin@pantheon.yale.edu>\nNewsgroups: netscape.public.mozilla.i18n\n\nIn <38D96698.1E2E3B7C@netscape.com>, Erik van der Poel wrote:\n: Jungshik Shin wrote:\n\n:> :   http://bugzilla.mozilla.org/show_bug.cgi?id=27378\n:> \n:>   Thanks for letting me know about this. I've added\n:> a comment that font encoding also needs to be specified.\n\n  Another feature desirable is let users specify multiple fonts\n(as opposed to a single font) for a given language/scripts/Unicode ranges\nand a given style(?). \n\n   Korean Hangul : UAC00-UDxxx : \n         Serif :   font11,font12,font13\n        SansSerif: font21,font22\n         fixed : font31, font32, font33\n\n   CJK ideograms : U4e00-      :\n         Serif : font41, font 42\n       SanSerif : font51,font52\n\nThis is useful when font11 doesn't have all the glyphs to cover a given\nlanguage/scripts/unicode range while font12 or font13 has some glyphs to\nfill the gap but font12 and font13 are not so pretty as font11. That way,\nusers can have some fall-back mechanism.",
+    "keywords": [
+        "intl"
+    ],
+    "summary": "add font-list support  to the font pref front end"
+}

@@ -1,0 +1,11 @@
+{
+    "id": 135567,
+    "component": "Keyboard Navigation",
+    "resolution": "FIXED",
+    "severity": "normal",
+    "description": "when i have more than one tab browser open, the File > Close Window doesn't have\nan accesskey. when i discussed this with Jen, she recommended the following:\n\nClose _T_ab --- Ctrl+W\n_C_lose Window --- Ctrl+Shift+W\n\nshe now has this in her spec.",
+    "status": "RESOLVED",
+    "priority": "--",
+    "summary": "menu accesskeys needed for closing tabs and window in multitab cases",
+    "keywords": []
+}

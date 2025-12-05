@@ -1,0 +1,11 @@
+{
+    "keywords": [],
+    "summary": "Multipart pages (like buglist.cgi) not saved in any usable form",
+    "priority": "P5",
+    "status": "RESOLVED",
+    "description": "From Bugzilla Helper:\nUser-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.3+) Gecko/20010817\nBuildID:    2001082012\n\nPages with content-disposition: inline, like bugzilla buglists, get saved as\nMIME, not HTML.\n\nThe average user expects an ordinary webpage to save as HTML.\n\nReproducible: Always\nSteps to Reproduce:\n1. Go to URL above\n2. Save page\n3. View saved page with text editor\n\nActual Results:  Saved page starts with:\n\n--thisrandomstring\nContent-type: text/html\n \n<html><head><title>Bugzilla is pondering your query</title>\n<style type=\"text/css\">\n    .psb { margin-top: 20%; text-align: center; }\n</style></head><body>\n<h1 class=\"psb\">Please stand by ...</h1></body></html>\n \n--thisrandomstring\nContent-type: text/html\nContent-disposition: inline; filename=bugzilla_bug_list.html\nSet-Cookie: LASTORDER=bugs.bug_id ; path=/; expires=Sun, 30-Jun-2029 00:00:00 GMT\n\nExpected Results:  Saved only the last part (current page) as HTML.",
+    "severity": "--",
+    "resolution": "WONTFIX",
+    "component": "File Handling",
+    "id": 96146
+}
